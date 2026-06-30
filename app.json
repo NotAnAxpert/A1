@@ -9,6 +9,10 @@
     "platforms": [
       "web"
     ],
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
     "plugins": [
       "expo-sqlite",
       "expo-router",
