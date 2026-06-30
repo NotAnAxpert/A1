@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Prüfung",
+    "slug": "pruefung",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "web"
+    ],
+    "plugins": [
+      "expo-sqlite",
+      "expo-router",
+      "expo-splash-screen",
+      "expo-font"
+    ]
+  }
+}

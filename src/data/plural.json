@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pl001",
+    "type": "plural",
+    "word": "Haus",
+    "article": "das",
+    "options": ["die Häuser", "die Hausen", "die Hauser", "die Häuse"],
+    "correct": 0,
+    "translation": "house → houses",
+    "rule": "das Haus → die Häuser (Umlaut + -er ending)"
+  },
+  {
+    "id": "pl002",
+    "type": "plural",
+    "word": "Frau",
+    "article": "die",
+    "options": ["die Fräuer", "die Fraus", "die Frauen", "die Fräuen"],
+    "correct": 2,
+    "translation": "woman → women",
+    "rule": "die Frau → die Frauen (-en ending)"
+  },
+  {
+    "id": "pl003",
+    "type": "plural",
+    "word": "Kind",
+    "article": "das",
+    "options": ["die Kinds", "die Kinder", "die Kinden", "die Kindern"],
+    "correct": 1,
+    "translation": "child → children",
+    "rule": "das Kind → die Kinder (-er ending)"
+  },
+  {
+    "id": "pl004",
+    "type": "plural",
+    "word": "Tisch",
+    "article": "der",
+    "options": ["die Tischen", "die Tischs", "die Tischer", "die Tische"],
+    "correct": 3,
+    "translation": "table → tables",
+    "rule": "der Tisch → die Tische (-e ending)"
+  },
+  {
+    "id": "pl005",
+    "type": "plural",
+    "word": "Lampe",
+    "article": "die",
+    "options": ["die Lampen", "die Lampes", "die Lamper", "die Lämpen"],
+    "correct": 0,
+    "translation": "lamp → lamps",
+    "rule": "die Lampe → die Lampen (-n ending)"
+  },
+  {
+    "id": "pl006",
+    "type": "plural",
+    "word": "Stuhl",
+    "article": "der",
+    "options": ["die Stuhle", "die Stühle", "die Stühlen", "die Stuhlen"],
+    "correct": 1,
+    "translation": "chair → chairs",
+    "rule": "der Stuhl → die Stühle (Umlaut + -e ending)"
+  },
+  {
+    "id": "pl007",
+    "type": "plural",
+    "word": "Bett",
+    "article": "das",
+    "options": ["die Betts", "die Better", "die Beten", "die Betten"],
+    "correct": 3,
+    "translation": "bed → beds",
+    "rule": "das Bett → die Betten (-en ending)"
+  },
+  {
+    "id": "pl008",
+    "type": "plural",
+    "word": "Tür",
+    "article": "die",
+    "options": ["die Türen", "die Türs", "die Türer", "die Turen"],
+    "correct": 0,
+    "translation": "door → doors",
+    "rule": "die Tür → die Türen (-en ending)"
+  },
+  {
+    "id": "pl009",
+    "type": "plural",
+    "word": "Mann",
+    "article": "der",
+    "options": ["die Mannen", "die Manns", "die Männer", "die Manner"],
+    "correct": 2,
+    "translation": "man → men",
+    "rule": "der Mann → die Männer (Umlaut + -er ending)"
+  },
+  {
+    "id": "pl010",
+    "type": "plural",
+    "word": "Zimmer",
+    "article": "das",
+    "options": ["die Zimmers", "die Zimmer", "die Zimmern", "die Zimmere"],
+    "correct": 1,
+    "translation": "room → rooms",
+    "rule": "das Zimmer → die Zimmer (no change — nouns ending in -er/-el often stay the same)"
+  },
+  {
+    "id": "pl011",
+    "type": "plural",
+    "word": "Küche",
+    "article": "die",
+    "options": ["die Küches", "die Küchn", "die Kücher", "die Küchen"],
+    "correct": 3,
+    "translation": "kitchen → kitchens",
+    "rule": "die Küche → die Küchen (-n ending)"
+  },
+  {
+    "id": "pl012",
+    "type": "plural",
+    "word": "Schrank",
+    "article": "der",
+    "options": ["die Schränke", "die Schranken", "die Schranks", "die Schränker"],
+    "correct": 0,
+    "translation": "closet → closets",
+    "rule": "der Schrank → die Schränke (Umlaut + -e ending)"
+  },
+  {
+    "id": "pl013",
+    "type": "plural",
+    "word": "Baby",
+    "article": "das",
+    "options": ["die Babyen", "die Babier", "die Babies", "die Babys"],
+    "correct": 3,
+    "translation": "baby → babies",
+    "rule": "das Baby → die Babys (-s ending for foreign words)"
+  },
+  {
+    "id": "pl014",
+    "type": "plural",
+    "word": "Schwester",
+    "article": "die",
+    "options": ["die Schwestern", "die Schwesters", "die Schwesternen", "die Schwästern"],
+    "correct": 0,
+    "translation": "sister → sisters",
+    "rule": "die Schwester → die Schwestern (-n ending)"
+  },
+  {
+    "id": "pl015",
+    "type": "plural",
+    "word": "Bruder",
+    "article": "der",
+    "options": ["die Bruders", "die Brudern", "die Brüder", "die Bruder"],
+    "correct": 2,
+    "translation": "brother → brothers",
+    "rule": "der Bruder → die Brüder (Umlaut, no ending change)"
+  },
+  {
+    "id": "pl016",
+    "type": "plural",
+    "word": "Fenster",
+    "article": "das",
+    "options": ["die Fensters", "die Fenstern", "die Fenstere", "die Fenster"],
+    "correct": 3,
+    "translation": "window → windows",
+    "rule": "das Fenster → die Fenster (no change — nouns ending in -er often stay the same)"
+  },
+  {
+    "id": "pl017",
+    "type": "plural",
+    "word": "Garten",
+    "article": "der",
+    "options": ["die Gärten", "die Gartens", "die Garten", "die Gärtener"],
+    "correct": 0,
+    "translation": "garden → gardens",
+    "rule": "der Garten → die Gärten (Umlaut + -en ending replaces -en)"
+  },
+  {
+    "id": "pl018",
+    "type": "plural",
+    "word": "Wohnung",
+    "article": "die",
+    "options": ["die Wohnungs", "die Wohnünge", "die Wohnungen", "die Wohnunger"],
+    "correct": 2,
+    "translation": "apartment → apartments",
+    "rule": "die Wohnung → die Wohnungen (-en ending for nouns ending in -ung)"
+  },
+  {
+    "id": "pl019",
+    "type": "plural",
+    "word": "Schlüssel",
+    "article": "der",
+    "options": ["die Schlüssel", "die Schlüssels", "die Schlüsseln", "die Schlüsseler"],
+    "correct": 0,
+    "translation": "key → keys",
+    "rule": "der Schlüssel → die Schlüssel (no change — nouns ending in -el often stay the same)"
+  },
+  {
+    "id": "pl020",
+    "type": "plural",
+    "word": "Mutter",
+    "article": "die",
+    "options": ["die Muttern", "die Mutters", "die Muttere", "die Mütter"],
+    "correct": 3,
+    "translation": "mother → mothers",
+    "rule": "die Mutter → die Mütter (Umlaut, no ending change)"
+  }
+]

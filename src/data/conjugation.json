@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cj001",
+    "type": "conjugation",
+    "sentence": "Ich ___ müde.",
+    "hint": "sein",
+    "answer": "bin",
+    "translation": "I am tired.",
+    "explanation": "sein: ich bin",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj002",
+    "type": "conjugation",
+    "sentence": "Du ___ sehr nett.",
+    "hint": "sein",
+    "answer": "bist",
+    "translation": "You are very nice.",
+    "explanation": "sein: du bist",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj003",
+    "type": "conjugation",
+    "sentence": "Er ___ Lehrer.",
+    "hint": "sein",
+    "answer": "ist",
+    "translation": "He is a teacher.",
+    "explanation": "sein: er ist",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj004",
+    "type": "conjugation",
+    "sentence": "Wir ___ aus Deutschland.",
+    "hint": "sein",
+    "answer": "sind",
+    "translation": "We are from Germany.",
+    "explanation": "sein: wir sind",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj005",
+    "type": "conjugation",
+    "sentence": "Ihr ___ zu spät.",
+    "hint": "sein",
+    "answer": "seid",
+    "translation": "You all are too late.",
+    "explanation": "sein: ihr seid",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj006",
+    "type": "conjugation",
+    "sentence": "Sie ___ Studenten.",
+    "hint": "sein",
+    "answer": "sind",
+    "translation": "They are students.",
+    "explanation": "sein: sie sind",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj007",
+    "type": "conjugation",
+    "sentence": "Ich ___ einen Hund.",
+    "hint": "haben",
+    "answer": "habe",
+    "translation": "I have a dog.",
+    "explanation": "haben: ich habe",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj008",
+    "type": "conjugation",
+    "sentence": "Du ___ ein schönes Haus.",
+    "hint": "haben",
+    "answer": "hast",
+    "translation": "You have a nice house.",
+    "explanation": "haben: du hast",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj009",
+    "type": "conjugation",
+    "sentence": "Sie ___ zwei Kinder.",
+    "hint": "haben",
+    "answer": "hat",
+    "translation": "She has two children.",
+    "explanation": "haben: sie hat",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj010",
+    "type": "conjugation",
+    "sentence": "Wir ___ keine Zeit.",
+    "hint": "haben",
+    "answer": "haben",
+    "translation": "We have no time.",
+    "explanation": "haben: wir haben",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj011",
+    "type": "conjugation",
+    "sentence": "Ihr ___ Glück.",
+    "hint": "haben",
+    "answer": "habt",
+    "translation": "You all are lucky.",
+    "explanation": "haben: ihr habt",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj012",
+    "type": "conjugation",
+    "sentence": "Sie ___ viele Freunde.",
+    "hint": "haben",
+    "answer": "haben",
+    "translation": "They have many friends.",
+    "explanation": "haben: sie haben",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj013",
+    "type": "conjugation",
+    "sentence": "Das Wetter ___ schön.",
+    "hint": "sein",
+    "answer": "ist",
+    "translation": "The weather is nice.",
+    "explanation": "sein: es ist (das Wetter = neutrum)",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj014",
+    "type": "conjugation",
+    "sentence": "Die Kinder ___ im Garten.",
+    "hint": "sein",
+    "answer": "sind",
+    "translation": "The children are in the garden.",
+    "explanation": "sein: die Kinder (plural) → sind",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj015",
+    "type": "conjugation",
+    "sentence": "Maria ___ Kopfschmerzen.",
+    "hint": "haben",
+    "answer": "hat",
+    "translation": "Maria has a headache.",
+    "explanation": "haben: Maria (3rd person singular) → hat",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj016",
+    "type": "conjugation",
+    "sentence": "Das ___ mein Buch.",
+    "hint": "sein",
+    "answer": "ist",
+    "translation": "That is my book.",
+    "explanation": "sein: das → ist",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj017",
+    "type": "conjugation",
+    "sentence": "Ich ___ Durst.",
+    "hint": "haben",
+    "answer": "habe",
+    "translation": "I am thirsty.",
+    "explanation": "haben: ich habe (German uses 'haben' for thirst/hunger)",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  },
+  {
+    "id": "cj018",
+    "type": "conjugation",
+    "sentence": "Die Suppe ___ kalt.",
+    "hint": "sein",
+    "answer": "ist",
+    "translation": "The soup is cold.",
+    "explanation": "sein: die Suppe (3rd person singular) → ist",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj019",
+    "type": "conjugation",
+    "sentence": "Meine Eltern ___ in der Türkei.",
+    "hint": "sein",
+    "answer": "sind",
+    "translation": "My parents are in Turkey.",
+    "explanation": "sein: meine Eltern (plural) → sind",
+    "rule": "sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind"
+  },
+  {
+    "id": "cj020",
+    "type": "conjugation",
+    "sentence": "Tom ___ drei Geschwister.",
+    "hint": "haben",
+    "answer": "hat",
+    "translation": "Tom has three siblings.",
+    "explanation": "haben: Tom (3rd person singular) → hat",
+    "rule": "haben: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben"
+  }
+]

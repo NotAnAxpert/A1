@@ -1,0 +1,719 @@
+[
+  {
+    "id": "sf001",
+    "type": "sentence",
+    "chunks": ["morgen", "gehe", "ich", "in die", "Schule"],
+    "translation": "Tomorrow I go to school.",
+    "rule": "V2 rule: when a time word starts the sentence, the verb stays in second position and the subject moves after it."
+  },
+  {
+    "id": "sf002",
+    "type": "sentence",
+    "chunks": ["ich", "heiße", "Anna"],
+    "translation": "My name is Anna.",
+    "rule": "Basic SVO order: subject + verb + complement."
+  },
+  {
+    "id": "sf003",
+    "type": "sentence",
+    "chunks": ["wir", "gehen", "heute", "in den", "Park"],
+    "translation": "We go to the park today.",
+    "rule": "Time before place: 'heute' (when) comes before 'in den Park' (where)."
+  },
+  {
+    "id": "sf004",
+    "type": "sentence",
+    "chunks": ["er", "kommt", "aus", "Deutschland"],
+    "translation": "He comes from Germany.",
+    "rule": "Basic SVO order: subject + verb + prepositional phrase."
+  },
+  {
+    "id": "sf005",
+    "type": "sentence",
+    "chunks": ["am Montag", "habe", "ich", "Deutschkurs"],
+    "translation": "On Monday I have German class.",
+    "rule": "V2 rule: 'am Montag' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf006",
+    "type": "sentence",
+    "chunks": ["die Kinder", "spielen", "im", "Garten"],
+    "translation": "The children play in the garden.",
+    "rule": "Basic SVO order: subject + verb + prepositional phrase."
+  },
+  {
+    "id": "sf007",
+    "type": "sentence",
+    "chunks": ["um 8 Uhr", "fängt", "die Schule", "an"],
+    "translation": "School starts at 8 o'clock.",
+    "rule": "Separable verbs: 'anfangen' splits — 'fängt' in V2 position, 'an' at the end."
+  },
+  {
+    "id": "sf008",
+    "type": "sentence",
+    "chunks": ["jeden Tag", "trinke", "ich", "Kaffee"],
+    "translation": "Every day I drink coffee.",
+    "rule": "V2 rule: 'jeden Tag' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf009",
+    "type": "sentence",
+    "chunks": ["wo", "wohnen", "Sie"],
+    "translation": "Where do you live?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf010",
+    "type": "sentence",
+    "chunks": ["meine Mutter", "kocht", "sehr", "gut"],
+    "translation": "My mother cooks very well.",
+    "rule": "Basic SVO order: subject + verb + adverb."
+  },
+  {
+    "id": "sf011",
+    "type": "sentence",
+    "chunks": ["am Wochenende", "fahre", "ich", "nach", "Hamburg"],
+    "translation": "On the weekend I drive to Hamburg.",
+    "rule": "V2 rule: time expression first, then verb, then subject, then destination."
+  },
+  {
+    "id": "sf012",
+    "type": "sentence",
+    "chunks": ["wie", "heißen", "Sie"],
+    "translation": "What is your name?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf013",
+    "type": "sentence",
+    "chunks": ["ich", "spreche", "ein bisschen", "Deutsch"],
+    "translation": "I speak a little German.",
+    "rule": "Basic SVO order: subject + verb + adverb + object."
+  },
+  {
+    "id": "sf014",
+    "type": "sentence",
+    "chunks": ["abends", "lese", "ich", "ein", "Buch"],
+    "translation": "In the evening I read a book.",
+    "rule": "V2 rule: 'abends' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf015",
+    "type": "sentence",
+    "chunks": ["Maria", "und", "Tom", "gehen", "in die", "Schule"],
+    "translation": "Maria and Tom go to school.",
+    "rule": "Compound subjects: 'Maria und Tom' count as the subject, verb comes after."
+  },
+  {
+    "id": "sf016",
+    "type": "sentence",
+    "chunks": ["ich", "trinke", "gern", "Tee"],
+    "translation": "I like to drink tea.",
+    "rule": "Basic SVO order: subject + verb + adverb + object."
+  },
+  {
+    "id": "sf017",
+    "type": "sentence",
+    "chunks": ["sie", "kauft", "einen", "Apfel"],
+    "translation": "She buys an apple.",
+    "rule": "Basic SVO order: subject + verb + accusative object."
+  },
+  {
+    "id": "sf018",
+    "type": "sentence",
+    "chunks": ["wir", "wohnen", "in", "Berlin"],
+    "translation": "We live in Berlin.",
+    "rule": "Basic SVO order: subject + verb + prepositional phrase."
+  },
+  {
+    "id": "sf019",
+    "type": "sentence",
+    "chunks": ["mein Bruder", "arbeitet", "bei", "Siemens"],
+    "translation": "My brother works at Siemens.",
+    "rule": "Basic SVO order: subject + verb + prepositional phrase."
+  },
+  {
+    "id": "sf020",
+    "type": "sentence",
+    "chunks": ["das Kind", "isst", "eine", "Banane"],
+    "translation": "The child eats a banana.",
+    "rule": "Basic SVO order: subject + verb + accusative object."
+  },
+  {
+    "id": "sf021",
+    "type": "sentence",
+    "chunks": ["du", "lernst", "Deutsch"],
+    "translation": "You learn German.",
+    "rule": "Basic SVO order: subject + verb + object."
+  },
+  {
+    "id": "sf022",
+    "type": "sentence",
+    "chunks": ["die Frau", "liest", "die", "Zeitung"],
+    "translation": "The woman reads the newspaper.",
+    "rule": "Basic SVO order: subject + verb + accusative object."
+  },
+  {
+    "id": "sf023",
+    "type": "sentence",
+    "chunks": ["heute", "regnet", "es"],
+    "translation": "Today it rains.",
+    "rule": "V2 rule: 'heute' in first position, verb second, subject third."
+  },
+  {
+    "id": "sf024",
+    "type": "sentence",
+    "chunks": ["nach dem Frühstück", "gehe", "ich", "zur", "Arbeit"],
+    "translation": "After breakfast I go to work.",
+    "rule": "V2 rule: time expression first, verb second, subject third."
+  },
+  {
+    "id": "sf025",
+    "type": "sentence",
+    "chunks": ["im Sommer", "fahren", "wir", "ans", "Meer"],
+    "translation": "In summer we drive to the sea.",
+    "rule": "V2 rule: time expression 'im Sommer' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf026",
+    "type": "sentence",
+    "chunks": ["am Freitag", "gehen", "wir", "ins", "Kino"],
+    "translation": "On Friday we go to the cinema.",
+    "rule": "V2 rule: 'am Freitag' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf027",
+    "type": "sentence",
+    "chunks": ["um 7 Uhr", "frühstücke", "ich"],
+    "translation": "At 7 o'clock I have breakfast.",
+    "rule": "V2 rule: 'um 7 Uhr' in first position, verb second, subject third."
+  },
+  {
+    "id": "sf028",
+    "type": "sentence",
+    "chunks": ["im Winter", "schneit", "es", "oft"],
+    "translation": "In winter it often snows.",
+    "rule": "V2 rule: 'im Winter' in first position pushes the subject after the verb."
+  },
+  {
+    "id": "sf029",
+    "type": "sentence",
+    "chunks": ["nach der Schule", "spiele", "ich", "Fußball"],
+    "translation": "After school I play football.",
+    "rule": "V2 rule: time expression first, verb second, subject third."
+  },
+  {
+    "id": "sf030",
+    "type": "sentence",
+    "chunks": ["was", "machst", "du", "heute"],
+    "translation": "What are you doing today?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf031",
+    "type": "sentence",
+    "chunks": ["woher", "kommen", "Sie"],
+    "translation": "Where do you come from?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf032",
+    "type": "sentence",
+    "chunks": ["wann", "fährt", "der", "Zug"],
+    "translation": "When does the train leave?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf033",
+    "type": "sentence",
+    "chunks": ["wie viel", "kostet", "das"],
+    "translation": "How much does that cost?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf034",
+    "type": "sentence",
+    "chunks": ["warum", "lernst", "du", "Deutsch"],
+    "translation": "Why are you learning German?",
+    "rule": "W-questions: question word + verb + subject + object.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf035",
+    "type": "sentence",
+    "chunks": ["welche Sprachen", "sprichst", "du"],
+    "translation": "Which languages do you speak?",
+    "rule": "W-questions: question word + verb + subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf036",
+    "type": "sentence",
+    "chunks": ["wie", "komme", "ich", "zum", "Bahnhof"],
+    "translation": "How do I get to the train station?",
+    "rule": "W-questions: question word + verb + subject + destination.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf037",
+    "type": "sentence",
+    "chunks": ["sprichst", "du", "Englisch"],
+    "translation": "Do you speak English?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf038",
+    "type": "sentence",
+    "chunks": ["hast", "du", "Geschwister"],
+    "translation": "Do you have siblings?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf039",
+    "type": "sentence",
+    "chunks": ["ist", "das", "dein", "Buch"],
+    "translation": "Is that your book?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf040",
+    "type": "sentence",
+    "chunks": ["kommst", "du", "aus", "der Türkei"],
+    "translation": "Do you come from Turkey?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf041",
+    "type": "sentence",
+    "chunks": ["möchten", "Sie", "einen", "Kaffee"],
+    "translation": "Would you like a coffee?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf042",
+    "type": "sentence",
+    "chunks": ["fahrt", "ihr", "morgen", "nach", "München"],
+    "translation": "Are you going to Munich tomorrow?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf043",
+    "type": "sentence",
+    "chunks": ["regnet", "es", "draußen"],
+    "translation": "Is it raining outside?",
+    "rule": "Yes/no questions: verb in first position, then subject.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf044",
+    "type": "sentence",
+    "chunks": ["ich", "stehe", "um 6 Uhr", "auf"],
+    "translation": "I get up at 6 o'clock.",
+    "rule": "Separable verbs: 'aufstehen' splits — 'stehe' in V2 position, 'auf' at the end."
+  },
+  {
+    "id": "sf045",
+    "type": "sentence",
+    "chunks": ["er", "ruft", "seine Mutter", "an"],
+    "translation": "He calls his mother.",
+    "rule": "Separable verbs: 'anrufen' splits — 'ruft' in V2 position, 'an' at the end."
+  },
+  {
+    "id": "sf046",
+    "type": "sentence",
+    "chunks": ["wir", "kaufen", "im Supermarkt", "ein"],
+    "translation": "We shop at the supermarket.",
+    "rule": "Separable verbs: 'einkaufen' splits — 'kaufen' in V2 position, 'ein' at the end."
+  },
+  {
+    "id": "sf047",
+    "type": "sentence",
+    "chunks": ["sie", "sieht", "abends", "fern"],
+    "translation": "She watches TV in the evening.",
+    "rule": "Separable verbs: 'fernsehen' splits — 'sieht' in V2 position, 'fern' at the end."
+  },
+  {
+    "id": "sf048",
+    "type": "sentence",
+    "chunks": ["der Unterricht", "fängt", "um 9 Uhr", "an"],
+    "translation": "The class starts at 9 o'clock.",
+    "rule": "Separable verbs: 'anfangen' splits — 'fängt' in V2 position, 'an' at the end."
+  },
+  {
+    "id": "sf049",
+    "type": "sentence",
+    "chunks": ["ich", "räume", "mein Zimmer", "auf"],
+    "translation": "I tidy up my room.",
+    "rule": "Separable verbs: 'aufräumen' splits — 'räume' in V2 position, 'auf' at the end."
+  },
+  {
+    "id": "sf050",
+    "type": "sentence",
+    "chunks": ["er", "bringt", "den Müll", "raus"],
+    "translation": "He takes out the trash.",
+    "rule": "Separable verbs: 'rausbringen' splits — 'bringt' in V2 position, 'raus' at the end."
+  },
+  {
+    "id": "sf051",
+    "type": "sentence",
+    "chunks": ["ich", "kann", "gut", "schwimmen"],
+    "translation": "I can swim well.",
+    "rule": "Modal verbs: 'kann' in V2 position, infinitive 'schwimmen' at the end."
+  },
+  {
+    "id": "sf052",
+    "type": "sentence",
+    "chunks": ["du", "musst", "deine Hausaufgaben", "machen"],
+    "translation": "You must do your homework.",
+    "rule": "Modal verbs: 'musst' in V2 position, infinitive 'machen' at the end."
+  },
+  {
+    "id": "sf053",
+    "type": "sentence",
+    "chunks": ["wir", "wollen", "am Samstag", "kochen"],
+    "translation": "We want to cook on Saturday.",
+    "rule": "Modal verbs: 'wollen' in V2 position, infinitive 'kochen' at the end."
+  },
+  {
+    "id": "sf054",
+    "type": "sentence",
+    "chunks": ["er", "darf", "hier", "nicht", "rauchen"],
+    "translation": "He is not allowed to smoke here.",
+    "rule": "Modal verbs: 'darf' in V2 position, infinitive 'rauchen' at the end. 'nicht' negates the permission."
+  },
+  {
+    "id": "sf055",
+    "type": "sentence",
+    "chunks": ["sie", "möchte", "ein Eis", "essen"],
+    "translation": "She would like to eat an ice cream.",
+    "rule": "Modal verbs: 'möchte' in V2 position, infinitive 'essen' at the end."
+  },
+  {
+    "id": "sf056",
+    "type": "sentence",
+    "chunks": ["ich", "soll", "den Arzt", "anrufen"],
+    "translation": "I should call the doctor.",
+    "rule": "Modal verbs: 'soll' in V2 position, infinitive 'anrufen' at the end."
+  },
+  {
+    "id": "sf057",
+    "type": "sentence",
+    "chunks": ["kannst", "du", "mir", "helfen"],
+    "translation": "Can you help me?",
+    "rule": "Modal verbs in yes/no questions: modal verb first, infinitive at the end.",
+    "punctuation": "?"
+  },
+  {
+    "id": "sf058",
+    "type": "sentence",
+    "chunks": ["wir", "müssen", "um 8 Uhr", "losfahren"],
+    "translation": "We have to leave at 8 o'clock.",
+    "rule": "Modal verbs: 'müssen' in V2 position, infinitive 'losfahren' at the end."
+  },
+  {
+    "id": "sf059",
+    "type": "sentence",
+    "chunks": ["ich", "trinke", "keinen", "Kaffee"],
+    "translation": "I don't drink coffee.",
+    "rule": "Negation with kein: 'keinen' negates the noun (masculine accusative)."
+  },
+  {
+    "id": "sf060",
+    "type": "sentence",
+    "chunks": ["er", "versteht", "das", "nicht"],
+    "translation": "He doesn't understand that.",
+    "rule": "Negation with nicht: 'nicht' comes at the end to negate the verb."
+  },
+  {
+    "id": "sf061",
+    "type": "sentence",
+    "chunks": ["wir", "haben", "keine", "Zeit"],
+    "translation": "We have no time.",
+    "rule": "Negation with kein: 'keine' negates the feminine noun 'Zeit'."
+  },
+  {
+    "id": "sf062",
+    "type": "sentence",
+    "chunks": ["das", "ist", "nicht", "mein", "Handy"],
+    "translation": "That is not my phone.",
+    "rule": "Negation with nicht: 'nicht' comes before the possessive to negate it."
+  },
+  {
+    "id": "sf063",
+    "type": "sentence",
+    "chunks": ["ich", "habe", "kein", "Auto"],
+    "translation": "I don't have a car.",
+    "rule": "Negation with kein: 'kein' negates the neuter noun 'Auto'."
+  },
+  {
+    "id": "sf064",
+    "type": "sentence",
+    "chunks": ["sie", "kommt", "heute", "nicht"],
+    "translation": "She is not coming today.",
+    "rule": "Negation with nicht: 'nicht' at the end negates the whole statement."
+  },
+  {
+    "id": "sf065",
+    "type": "sentence",
+    "chunks": ["das Essen", "schmeckt", "nicht", "gut"],
+    "translation": "The food doesn't taste good.",
+    "rule": "Negation with nicht: 'nicht' comes before the adjective it negates."
+  },
+  {
+    "id": "sf066",
+    "type": "sentence",
+    "chunks": ["ich", "fahre", "morgen", "mit dem Zug", "nach", "Köln"],
+    "translation": "I travel tomorrow by train to Cologne.",
+    "rule": "TMP order: time ('morgen') before manner ('mit dem Zug') before place ('nach Köln')."
+  },
+  {
+    "id": "sf067",
+    "type": "sentence",
+    "chunks": ["er", "geht", "jeden Tag", "zu Fuß", "zur", "Arbeit"],
+    "translation": "He walks to work every day.",
+    "rule": "TMP order: time ('jeden Tag') before manner ('zu Fuß') before place ('zur Arbeit')."
+  },
+  {
+    "id": "sf068",
+    "type": "sentence",
+    "chunks": ["wir", "fahren", "im August", "mit dem Auto", "nach", "Italien"],
+    "translation": "We drive to Italy by car in August.",
+    "rule": "TMP order: time ('im August') before manner ('mit dem Auto') before place ('nach Italien')."
+  },
+  {
+    "id": "sf069",
+    "type": "sentence",
+    "chunks": ["sie", "fliegt", "nächste Woche", "allein", "nach", "London"],
+    "translation": "She flies to London alone next week.",
+    "rule": "TMP order: time ('nächste Woche') before manner ('allein') before place ('nach London')."
+  },
+  {
+    "id": "sf070",
+    "type": "sentence",
+    "chunks": ["ich", "gehe", "am Abend", "gern", "in den", "Park"],
+    "translation": "I like to go to the park in the evening.",
+    "rule": "TMP order: time ('am Abend') before manner ('gern') before place ('in den Park')."
+  },
+  {
+    "id": "sf071",
+    "type": "sentence",
+    "chunks": ["er", "kommt", "um 3 Uhr", "mit dem Bus", "nach", "Hause"],
+    "translation": "He comes home by bus at 3 o'clock.",
+    "rule": "TMP order: time ('um 3 Uhr') before manner ('mit dem Bus') before place ('nach Hause')."
+  },
+  {
+    "id": "sf072",
+    "type": "sentence",
+    "chunks": ["wir", "fahren", "am Sonntag", "mit dem Fahrrad", "zum", "See"],
+    "translation": "We cycle to the lake on Sunday.",
+    "rule": "TMP order: time ('am Sonntag') before manner ('mit dem Fahrrad') before place ('zum See')."
+  },
+  {
+    "id": "sf073",
+    "type": "sentence",
+    "chunks": ["Anna und ich", "kochen", "zusammen"],
+    "translation": "Anna and I cook together.",
+    "rule": "Compound subjects: 'Anna und ich' is the subject, verb follows in V2."
+  },
+  {
+    "id": "sf074",
+    "type": "sentence",
+    "chunks": ["mein Bruder", "und", "meine Schwester", "spielen", "Tennis"],
+    "translation": "My brother and my sister play tennis.",
+    "rule": "Compound subjects: 'mein Bruder und meine Schwester' count as a plural subject."
+  },
+  {
+    "id": "sf075",
+    "type": "sentence",
+    "chunks": ["Lisa und Paul", "lernen", "zusammen", "Deutsch"],
+    "translation": "Lisa and Paul learn German together.",
+    "rule": "Compound subjects: 'Lisa und Paul' is a compound subject taking a plural verb."
+  },
+  {
+    "id": "sf076",
+    "type": "sentence",
+    "chunks": ["Mama und Papa", "kaufen", "ein neues", "Auto"],
+    "translation": "Mom and Dad buy a new car.",
+    "rule": "Compound subjects: 'Mama und Papa' is a compound subject taking a plural verb."
+  },
+  {
+    "id": "sf077",
+    "type": "sentence",
+    "chunks": ["der Hund", "und", "die Katze", "schlafen", "im", "Wohnzimmer"],
+    "translation": "The dog and the cat sleep in the living room.",
+    "rule": "Compound subjects: 'der Hund und die Katze' count as a plural subject."
+  },
+  {
+    "id": "sf078",
+    "type": "sentence",
+    "chunks": ["Tim und ich", "gehen", "am Samstag", "ins", "Schwimmbad"],
+    "translation": "Tim and I go to the swimming pool on Saturday.",
+    "rule": "Compound subjects: 'Tim und ich' is the subject, verb follows in V2."
+  },
+  {
+    "id": "sf079",
+    "type": "sentence",
+    "chunks": ["das Buch", "gefällt", "mir"],
+    "translation": "I like the book.",
+    "rule": "Dative verbs: 'gefallen' takes a dative object ('mir'). The thing liked is the subject."
+  },
+  {
+    "id": "sf080",
+    "type": "sentence",
+    "chunks": ["ich", "helfe", "meiner", "Mutter"],
+    "translation": "I help my mother.",
+    "rule": "Dative verbs: 'helfen' takes a dative object ('meiner Mutter')."
+  },
+  {
+    "id": "sf081",
+    "type": "sentence",
+    "chunks": ["das Handy", "gehört", "meinem", "Bruder"],
+    "translation": "The phone belongs to my brother.",
+    "rule": "Dative verbs: 'gehören' takes a dative object ('meinem Bruder')."
+  },
+  {
+    "id": "sf082",
+    "type": "sentence",
+    "chunks": ["die Jacke", "gefällt", "meiner", "Schwester"],
+    "translation": "My sister likes the jacket.",
+    "rule": "Dative verbs: 'gefallen' takes a dative object ('meiner Schwester')."
+  },
+  {
+    "id": "sf083",
+    "type": "sentence",
+    "chunks": ["er", "dankt", "seinem", "Lehrer"],
+    "translation": "He thanks his teacher.",
+    "rule": "Dative verbs: 'danken' takes a dative object ('seinem Lehrer')."
+  },
+  {
+    "id": "sf084",
+    "type": "sentence",
+    "chunks": ["ich", "antworte", "dem", "Mann"],
+    "translation": "I answer the man.",
+    "rule": "Dative verbs: 'antworten' takes a dative object ('dem Mann')."
+  },
+  {
+    "id": "sf085",
+    "type": "sentence",
+    "chunks": ["wir", "helfen", "den", "Kindern"],
+    "translation": "We help the children.",
+    "rule": "Dative verbs: 'helfen' takes a dative object ('den Kindern' — dative plural)."
+  },
+  {
+    "id": "sf086",
+    "type": "sentence",
+    "chunks": ["ich", "habe", "Deutsch", "gelernt"],
+    "translation": "I learned German.",
+    "rule": "Perfekt: 'habe' (auxiliary) in V2 position, past participle 'gelernt' at the end."
+  },
+  {
+    "id": "sf087",
+    "type": "sentence",
+    "chunks": ["sie", "hat", "einen Kuchen", "gebacken"],
+    "translation": "She baked a cake.",
+    "rule": "Perfekt: 'hat' (auxiliary) in V2 position, past participle 'gebacken' at the end."
+  },
+  {
+    "id": "sf088",
+    "type": "sentence",
+    "chunks": ["wir", "haben", "gestern", "Fußball", "gespielt"],
+    "translation": "We played football yesterday.",
+    "rule": "Perfekt: 'haben' in V2 position, past participle 'gespielt' at the end."
+  },
+  {
+    "id": "sf089",
+    "type": "sentence",
+    "chunks": ["er", "ist", "nach Berlin", "gefahren"],
+    "translation": "He drove to Berlin.",
+    "rule": "Perfekt with sein: movement verbs use 'ist' as auxiliary, past participle at the end."
+  },
+  {
+    "id": "sf090",
+    "type": "sentence",
+    "chunks": ["ich", "bin", "heute früh", "aufgestanden"],
+    "translation": "I got up early today.",
+    "rule": "Perfekt with sein: 'aufstehen' uses 'bin' as auxiliary, past participle at the end."
+  },
+  {
+    "id": "sf091",
+    "type": "sentence",
+    "chunks": ["sie", "hat", "das Buch", "gelesen"],
+    "translation": "She read the book.",
+    "rule": "Perfekt: 'hat' in V2 position, past participle 'gelesen' at the end."
+  },
+  {
+    "id": "sf092",
+    "type": "sentence",
+    "chunks": ["wir", "sind", "ins Kino", "gegangen"],
+    "translation": "We went to the cinema.",
+    "rule": "Perfekt with sein: movement verbs use 'sind' as auxiliary, past participle at the end."
+  },
+  {
+    "id": "sf093",
+    "type": "sentence",
+    "chunks": ["ich", "lerne", "Deutsch", "weil", "ich", "in Deutschland", "arbeite"],
+    "translation": "I learn German because I work in Germany.",
+    "rule": "weil clause: after 'weil' the verb goes to the end of the clause."
+  },
+  {
+    "id": "sf094",
+    "type": "sentence",
+    "chunks": ["er", "sagt", "dass", "er", "morgen", "kommt"],
+    "translation": "He says that he is coming tomorrow.",
+    "rule": "dass clause: after 'dass' the verb goes to the end of the clause."
+  },
+  {
+    "id": "sf095",
+    "type": "sentence",
+    "chunks": ["ich", "bleibe", "zu Hause", "weil", "es", "regnet"],
+    "translation": "I stay at home because it is raining.",
+    "rule": "weil clause: after 'weil' the verb 'regnet' moves to the end of the clause."
+  },
+  {
+    "id": "sf096",
+    "type": "sentence",
+    "chunks": ["sie", "weiß", "dass", "der Test", "schwer", "ist"],
+    "translation": "She knows that the test is difficult.",
+    "rule": "dass clause: after 'dass' the verb 'ist' goes to the end of the clause."
+  },
+  {
+    "id": "sf097",
+    "type": "sentence",
+    "chunks": ["er", "ist", "müde", "weil", "er", "viel", "gearbeitet", "hat"],
+    "translation": "He is tired because he worked a lot.",
+    "rule": "weil clause with Perfekt: after 'weil', the auxiliary 'hat' goes to the very end."
+  },
+  {
+    "id": "sf098",
+    "type": "sentence",
+    "chunks": ["ich", "glaube", "dass", "sie", "nett", "ist"],
+    "translation": "I think that she is nice.",
+    "rule": "dass clause: after 'dass' the verb 'ist' goes to the end of the clause."
+  },
+  {
+    "id": "sf099",
+    "type": "sentence",
+    "chunks": ["wir", "essen", "nicht", "weil", "wir", "keinen Hunger", "haben"],
+    "translation": "We don't eat because we are not hungry.",
+    "rule": "weil clause: after 'weil' the verb 'haben' goes to the end of the clause."
+  },
+  {
+    "id": "sf100",
+    "type": "sentence",
+    "chunks": ["er", "hofft", "dass", "das Wetter", "morgen", "schön", "wird"],
+    "translation": "He hopes that the weather will be nice tomorrow.",
+    "rule": "dass clause: after 'dass' the verb 'wird' goes to the end of the clause."
+  }
+]
