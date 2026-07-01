@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
-import { View, Text, Pressable, StyleSheet, Platform, Animated } from 'react-native';
+import { View, Text, Pressable, ScrollView, StyleSheet, Platform, Animated } from 'react-native';
 import { router } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
@@ -184,27 +184,29 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
         <View style={[styles.progressFill, { width: `${progressPct}%` }]} />
       </View>
 
-      {cardType === 'vocab' ? (
-        <VocabCard
-          key={`${currentCard.id}-${currentIndex}`}
-          card={currentCard as VocabCardType}
-          onAnswer={handleAnswer}
-        />
-      ) : (() => {
-        const grammarType = (currentCard as any).type;
-        switch (grammarType) {
-          case 'perfekt':
-            return <PerfektCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as PerfektCardType} onAnswer={handleAnswer} />;
-          case 'plural':
-            return <PluralCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as PluralCardType} onAnswer={handleAnswer} />;
-          case 'conjugation':
-            return <ConjugationCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as ConjugationCardType} onAnswer={handleAnswer} />;
-          case 'sentence':
-            return <SentenceCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as SentenceCardType} onAnswer={handleAnswer} />;
-          default:
-            return <GrammarCard key={`${currentCard.id}-${currentIndex}`} card={currentCard as GrammarCardType} onAnswer={handleAnswer} />;
-        }
-      })()}
+      <ScrollView style={styles.scrollArea} contentContainerStyle={styles.scrollContent} bounces={false}>
+        {cardType === 'vocab' ? (
+          <VocabCard
+            key={`${currentCard.id}-${currentIndex}`}
+            card={currentCard as VocabCardType}
+            onAnswer={handleAnswer}
+          />
+        ) : (() => {
+          const grammarType = (currentCard as any).type;
+          switch (grammarType) {
+            case 'perfekt':
+              return <PerfektCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as PerfektCardType} onAnswer={handleAnswer} />;
+            case 'plural':
+              return <PluralCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as PluralCardType} onAnswer={handleAnswer} />;
+            case 'conjugation':
+              return <ConjugationCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as ConjugationCardType} onAnswer={handleAnswer} />;
+            case 'sentence':
+              return <SentenceCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as SentenceCardType} onAnswer={handleAnswer} />;
+            default:
+              return <GrammarCard key={`${currentCard.id}-${currentIndex}`} card={currentCard as GrammarCardType} onAnswer={handleAnswer} />;
+          }
+        })()}
+      </ScrollView>
 
       {waitingForNext && lastResult && (
         <Animated.View style={[
@@ -284,6 +286,12 @@ const styles = StyleSheet.create({
     height: '100%',
     backgroundColor: colors.primary,
     borderRadius: 2,
+  },
+  scrollArea: {
+    flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
   },
   emptyState: {
     flex: 1,

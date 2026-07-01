@@ -44,12 +44,12 @@ export default function HomeScreen() {
 
   const vocabTotal = vocabData.length;
   const grammarTotal = grammarData.length;
-  const vocabLearned = progress?.vocabLearned ?? 0;
-  const grammarLearned = progress?.grammarLearned ?? 0;
-  const uebungenLearned = progress?.uebungenLearned ?? 0;
-  const totalLearned = vocabLearned + grammarLearned + uebungenLearned;
+  const vocabSeen = progress?.vocabTotal ?? 0;
+  const grammarSeen = progress?.grammarTotal ?? 0;
+  const uebungenSeen = progress?.uebungenTotal ?? 0;
+  const totalSeen = vocabSeen + grammarSeen + uebungenSeen;
   const totalCards = vocabTotal + grammarTotal + uebungenTotal;
-  const readiness = totalCards > 0 ? Math.round((totalLearned / totalCards) * 100) : 0;
+  const readiness = totalCards > 0 ? Math.round((totalSeen / totalCards) * 100) : 0;
 
   function handleStart() {
     const counts = [
@@ -146,7 +146,7 @@ export default function HomeScreen() {
             <Text style={styles.rowName}>Wortschatz</Text>
             <Text style={styles.rowSub}>Der / Die / Das Drill</Text>
             <View style={styles.progressBar}>
-              <View style={[styles.progressFill, { width: `${vocabTotal > 0 ? (vocabLearned / vocabTotal) * 100 : 0}%`, backgroundColor: colors.der }]} />
+              <View style={[styles.progressFill, { width: `${vocabTotal > 0 ? (vocabSeen / vocabTotal) * 100 : 0}%`, backgroundColor: colors.der }]} />
             </View>
           </View>
           <View style={styles.rowRight}>
@@ -155,7 +155,7 @@ export default function HomeScreen() {
                 <Text style={[styles.rowDueText, { color: colors.der }]}>{vocabDue}</Text>
               </View>
             )}
-            <Text style={styles.rowLearned}>{vocabLearned} / {vocabTotal}</Text>
+            <Text style={styles.rowLearned}>{vocabSeen} / {vocabTotal}</Text>
           </View>
         </Pressable>
 
@@ -168,7 +168,7 @@ export default function HomeScreen() {
             <Text style={styles.rowName}>Grammatik</Text>
             <Text style={styles.rowSub}>A1 Grammar Drills</Text>
             <View style={styles.progressBar}>
-              <View style={[styles.progressFill, { width: `${grammarTotal > 0 ? (grammarLearned / grammarTotal) * 100 : 0}%`, backgroundColor: colors.success }]} />
+              <View style={[styles.progressFill, { width: `${grammarTotal > 0 ? (grammarSeen / grammarTotal) * 100 : 0}%`, backgroundColor: colors.success }]} />
             </View>
           </View>
           <View style={styles.rowRight}>
@@ -177,7 +177,7 @@ export default function HomeScreen() {
                 <Text style={[styles.rowDueText, { color: colors.success }]}>{grammarDue}</Text>
               </View>
             )}
-            <Text style={styles.rowLearned}>{grammarLearned} / {grammarTotal}</Text>
+            <Text style={styles.rowLearned}>{grammarSeen} / {grammarTotal}</Text>
           </View>
         </Pressable>
 
@@ -193,7 +193,7 @@ export default function HomeScreen() {
             <Text style={styles.rowName}>Übungen</Text>
             <Text style={styles.rowSub}>Perfekt, Plural, Konjugation, Sätze</Text>
             <View style={styles.progressBar}>
-              <View style={[styles.progressFill, { width: `${uebungenTotal > 0 ? (uebungenLearned / uebungenTotal) * 100 : 0}%`, backgroundColor: colors.accent4 }]} />
+              <View style={[styles.progressFill, { width: `${uebungenTotal > 0 ? (uebungenSeen / uebungenTotal) * 100 : 0}%`, backgroundColor: colors.accent4 }]} />
             </View>
           </View>
           <View style={styles.rowRight}>
@@ -202,7 +202,7 @@ export default function HomeScreen() {
                 <Text style={[styles.rowDueText, { color: '#E09A20' }]}>{uebungenDue}</Text>
               </View>
             )}
-            <Text style={styles.rowLearned}>{uebungenLearned} / {uebungenTotal}</Text>
+            <Text style={styles.rowLearned}>{uebungenSeen} / {uebungenTotal}</Text>
           </View>
         </Pressable>
 

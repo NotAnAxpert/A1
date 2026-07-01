@@ -120,9 +120,10 @@ export default function ConjugationCard({ card, onAnswer }: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
     paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
   },
   questionSection: {
     alignItems: 'center',

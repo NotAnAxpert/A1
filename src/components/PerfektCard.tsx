@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { View, Text, Pressable, StyleSheet, type ViewStyle } from 'react-native';
 import * as Speech from 'expo-speech';
 import { Ionicons } from '@expo/vector-icons';
@@ -12,71 +12,23 @@ interface Props {
   onAnswer: (correct: boolean) => void;
 }
 
-interface BlankResult {
-  selected: number;
-  correct: boolean;
-}
-
 export default function PerfektCard({ card, onAnswer }: Props) {
-  const [activeBlank, setActiveBlank] = useState<'aux' | 'part'>('aux');
-  const [auxResult, setAuxResult] = useState<BlankResult | null>(null);
-  const [partResult, setPartResult] = useState<BlankResult | null>(null);
-  const answeredRef = useRef(false);
+  const [selected, setSelected] = useState<number | null>(null);
+  const answered = selected !== null;
+  const isCorrect = selected === card.correctAuxiliary;
 
-  const bothResolved = auxResult !== null && partResult !== null;
-
-  useEffect(() => {
-    if (bothResolved && !answeredRef.current) {
-      answeredRef.current = true;
-      const allCorrect = auxResult.correct && partResult.correct;
-      onAnswer(allCorrect);
-      Speech.stop();
-      const fullSentence = card.sentence
-        .replace('___', card.auxiliaryOptions[card.correctAuxiliary])
-        .replace('___', card.participleOptions[card.correctParticiple]);
-      setTimeout(() => {
-        Speech.speak(fullSentence, { language: 'de', rate: 1.1 });
-      }, 150);
-    }
-  }, [bothResolved]);
-
-  function handleBlankTap(blank: 'aux' | 'part') {
-    if (blank === 'aux' && auxResult !== null) return;
-    if (blank === 'part' && partResult !== null) return;
-    setActiveBlank(blank);
+  function handleSelect(index: number) {
+    if (answered) return;
+    setSelected(index);
+    onAnswer(index === card.correctAuxiliary);
+    Speech.stop();
+    const fullSentence = card.sentence
+      .replace('___', card.auxiliaryOptions[card.correctAuxiliary])
+      .replace('___', card.participleOptions[card.correctParticiple]);
+    setTimeout(() => {
+      Speech.speak(fullSentence, { language: 'de', rate: 1.1 });
+    }, 150);
   }
-
-  function handleOptionSelect(index: number) {
-    if (activeBlank === 'aux') {
-      if (auxResult !== null) return;
-      const correct = index === card.correctAuxiliary;
-      setAuxResult({ selected: index, correct });
-      if (partResult === null) {
-        setTimeout(() => setActiveBlank('part'), 400);
-      }
-    } else {
-      if (partResult !== null) return;
-      const correct = index === card.correctParticiple;
-      setPartResult({ selected: index, correct });
-      if (auxResult === null) {
-        setTimeout(() => setActiveBlank('aux'), 400);
-      }
-    }
-  }
-
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      const idx = parseInt(e.key, 10) - 1;
-      if (idx >= 0 && idx < 4) {
-        e.preventDefault();
-        handleOptionSelect(idx);
-      }
-    }
-    if (typeof window !== 'undefined' && !bothResolved) {
-      window.addEventListener('keydown', onKey);
-      return () => window.removeEventListener('keydown', onKey);
-    }
-  }, [activeBlank, auxResult, partResult, bothResolved]);
 
   function speakSentence() {
     Speech.stop();
@@ -86,12 +38,22 @@ export default function PerfektCard({ card, onAnswer }: Props) {
     Speech.speak(fullSentence, { language: 'de', rate: 0.9 });
   }
 
-  const parts = card.sentence.split('___');
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      const idx = parseInt(e.key, 10) - 1;
+      if (idx >= 0 && idx < card.auxiliaryOptions.length) {
+        e.preventDefault();
+        handleSelect(idx);
+      }
+    }
+    if (typeof window !== 'undefined' && !answered) {
+      window.addEventListener('keydown', onKey);
+      return () => window.removeEventListener('keydown', onKey);
+    }
+  }, [answered, card]);
 
-  const activeOptions = activeBlank === 'aux' ? card.auxiliaryOptions : card.participleOptions;
-  const activeCorrectIdx = activeBlank === 'aux' ? card.correctAuxiliary : card.correctParticiple;
-  const activeResult = activeBlank === 'aux' ? auxResult : partResult;
-  const activeLabel = activeBlank === 'aux' ? 'Hilfsverb' : 'Partizip II';
+  const parts = card.sentence.split('___');
+  const participle = card.participleOptions[card.correctParticiple];
 
   return (
     <View style={styles.container}>
@@ -105,63 +67,31 @@ export default function PerfektCard({ card, onAnswer }: Props) {
             {parts[0].trim() !== '' && (
               <Text style={styles.sentenceWord}>{parts[0].trim()}</Text>
             )}
-            <Pressable
-              onPress={() => handleBlankTap('aux')}
-              style={[
-                styles.blankPill,
-                auxResult
-                  ? auxResult.correct ? styles.blankPillCorrect : styles.blankPillWrong
-                  : activeBlank === 'aux'
-                    ? styles.blankPillActive
-                    : styles.blankPillInactive,
-              ]}
-            >
+            <View style={[
+              styles.blankPill,
+              answered
+                ? isCorrect ? styles.blankPillCorrect : styles.blankPillWrong
+                : styles.blankPillActive,
+            ]}>
               <Text style={[
                 styles.blankPillText,
-                auxResult
-                  ? auxResult.correct ? styles.blankTextCorrect : styles.blankTextWrong
-                  : activeBlank === 'aux'
-                    ? styles.blankTextActive
-                    : styles.blankTextInactive,
+                answered
+                  ? isCorrect ? styles.blankTextCorrect : styles.blankTextWrong
+                  : styles.blankTextActive,
               ]}>
-                {auxResult
-                  ? card.auxiliaryOptions[card.correctAuxiliary]
-                  : '________'}
+                {answered ? card.auxiliaryOptions[card.correctAuxiliary] : '________'}
               </Text>
-              {!auxResult && activeBlank === 'aux' && (
+              {!answered && (
                 <Text style={styles.blankLabel}>Hilfsverb</Text>
               )}
-            </Pressable>
+            </View>
             {parts[1].trim() !== '' && (
               <Text style={styles.sentenceWord}>{parts[1].trim()}</Text>
             )}
-            <Pressable
-              onPress={() => handleBlankTap('part')}
-              style={[
-                styles.blankPill,
-                partResult
-                  ? partResult.correct ? styles.blankPillCorrect : styles.blankPillWrong
-                  : activeBlank === 'part'
-                    ? styles.blankPillActive
-                    : styles.blankPillInactive,
-              ]}
-            >
-              <Text style={[
-                styles.blankPillText,
-                partResult
-                  ? partResult.correct ? styles.blankTextCorrect : styles.blankTextWrong
-                  : activeBlank === 'part'
-                    ? styles.blankTextActive
-                    : styles.blankTextInactive,
-              ]}>
-                {partResult
-                  ? card.participleOptions[card.correctParticiple]
-                  : '________'}
-              </Text>
-              {!partResult && activeBlank === 'part' && (
-                <Text style={styles.blankLabel}>Partizip II</Text>
-              )}
-            </Pressable>
+            <View style={styles.participlePill}>
+              <Text style={styles.participleText}>{participle}</Text>
+              <Text style={styles.participleLabel}>Partizip II</Text>
+            </View>
             {(parts[2] ?? '').trim() !== '' && (
               <Text style={styles.sentenceWord}>{(parts[2] ?? '').trim()}</Text>
             )}
@@ -169,59 +99,62 @@ export default function PerfektCard({ card, onAnswer }: Props) {
         </View>
       </View>
 
-      {!bothResolved && (
-        <View style={styles.optionGroup}>
-          <Text style={styles.groupLabel}>{activeLabel}</Text>
-          <View style={styles.options}>
-            {activeOptions.map((option, index) => {
-              const isCorrect = index === activeCorrectIdx;
-              const isSelected = index === activeResult?.selected;
-              const locked = activeResult !== null;
+      <View style={styles.optionGroup}>
+        <Text style={styles.groupLabel}>Hilfsverb</Text>
+        <View style={styles.options}>
+          {card.auxiliaryOptions.map((option, index) => {
+            const optionIsCorrect = index === card.correctAuxiliary;
+            const isSelected = index === selected;
 
-              let rowStyle: ViewStyle[] = [styles.option];
-              let letterStyle: ViewStyle[] = [styles.letterCircle];
-              let labelColor = colors.text;
+            let rowStyle: ViewStyle[] = [styles.option];
+            let letterStyle: ViewStyle[] = [styles.letterCircle];
+            let labelColor = colors.text;
 
-              if (!locked) {
-                // default
-              } else if (isCorrect) {
-                rowStyle = [styles.option, { backgroundColor: colors.successLight, borderColor: colors.success }];
-                letterStyle = [styles.letterCircle, { backgroundColor: colors.success, borderColor: colors.success }];
-                labelColor = colors.success;
-              } else if (isSelected && !isCorrect) {
-                rowStyle = [styles.option, { backgroundColor: colors.errorLight, borderColor: colors.error }];
-                letterStyle = [styles.letterCircle, { backgroundColor: colors.error, borderColor: colors.error }];
-                labelColor = colors.error;
-              } else {
-                rowStyle = [styles.option, { opacity: 0.4 }];
-              }
+            if (!answered) {
+              // default
+            } else if (optionIsCorrect) {
+              rowStyle = [styles.option, { backgroundColor: colors.successLight, borderColor: colors.success }];
+              letterStyle = [styles.letterCircle, { backgroundColor: colors.success, borderColor: colors.success }];
+              labelColor = colors.success;
+            } else if (isSelected && !optionIsCorrect) {
+              rowStyle = [styles.option, { backgroundColor: colors.errorLight, borderColor: colors.error }];
+              letterStyle = [styles.letterCircle, { backgroundColor: colors.error, borderColor: colors.error }];
+              labelColor = colors.error;
+            } else {
+              rowStyle = [styles.option, { opacity: 0.4 }];
+            }
 
-              return (
-                <Pressable
-                  key={index}
-                  style={rowStyle}
-                  onPress={() => handleOptionSelect(index)}
-                  disabled={locked}
-                >
-                  <View style={letterStyle}>
-                    <Text style={[
-                      styles.letterText,
-                      locked && (isCorrect || (isSelected && !isCorrect)) && { color: '#FFFFFF' },
-                    ]}>
-                      {LETTERS[index]}
-                    </Text>
-                  </View>
-                  <Text style={[styles.optionLabel, { color: labelColor }]}>
-                    {option}
+            return (
+              <Pressable
+                key={index}
+                style={rowStyle}
+                onPress={() => handleSelect(index)}
+                disabled={answered}
+              >
+                <View style={letterStyle}>
+                  <Text style={[
+                    styles.letterText,
+                    answered && (optionIsCorrect || (isSelected && !optionIsCorrect)) && { color: '#FFFFFF' },
+                  ]}>
+                    {LETTERS[index]}
                   </Text>
-                </Pressable>
-              );
-            })}
-          </View>
+                </View>
+                <Text style={[styles.optionLabel, { color: labelColor }]}>
+                  {option}
+                </Text>
+                {answered && isSelected && !optionIsCorrect && (
+                  <Text style={styles.yourPickLabel}>Your pick</Text>
+                )}
+                {answered && optionIsCorrect && (
+                  <Text style={styles.correctLabel}>Correct</Text>
+                )}
+              </Pressable>
+            );
+          })}
         </View>
-      )}
+      </View>
 
-      {bothResolved && (
+      {answered && (
         <View style={styles.explanation}>
           <Text style={styles.translationText}>{card.translation}</Text>
           <Text style={styles.ruleText}>{card.rule}</Text>
@@ -237,9 +170,10 @@ export default function PerfektCard({ card, onAnswer }: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
     paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
   },
   questionSection: {
     alignItems: 'center',
@@ -288,22 +222,14 @@ const styles = StyleSheet.create({
   blankPillActive: {
     backgroundColor: colors.primaryLight,
     borderColor: colors.primary,
-    borderStyle: 'solid',
-  },
-  blankPillInactive: {
-    backgroundColor: 'transparent',
-    borderColor: colors.borderStrong,
-    borderStyle: 'dashed',
   },
   blankPillCorrect: {
     backgroundColor: colors.successLight,
     borderColor: colors.success,
-    borderStyle: 'solid',
   },
   blankPillWrong: {
     backgroundColor: colors.errorLight,
     borderColor: colors.error,
-    borderStyle: 'solid',
   },
   blankPillText: {
     fontSize: fontSize.lg,
@@ -312,9 +238,6 @@ const styles = StyleSheet.create({
   },
   blankTextActive: {
     color: colors.primary,
-  },
-  blankTextInactive: {
-    color: colors.textMuted,
   },
   blankTextCorrect: {
     color: colors.success,
@@ -326,6 +249,30 @@ const styles = StyleSheet.create({
     fontSize: fontSize.xs,
     fontFamily: 'SpaceGrotesk_600SemiBold',
     color: colors.primary,
+    textTransform: 'uppercase',
+    letterSpacing: 0.8,
+    marginTop: 2,
+  },
+  participlePill: {
+    alignItems: 'center',
+    paddingVertical: 6,
+    paddingHorizontal: 14,
+    borderRadius: radius.sm,
+    borderWidth: 2,
+    borderColor: colors.accent2,
+    backgroundColor: colors.accent2 + '14',
+    minWidth: 90,
+  },
+  participleText: {
+    fontSize: fontSize.lg,
+    fontFamily: 'SpaceGrotesk_700Bold',
+    color: colors.accent2,
+    lineHeight: 28,
+  },
+  participleLabel: {
+    fontSize: 9,
+    fontFamily: 'SpaceGrotesk_600SemiBold',
+    color: colors.accent2,
     textTransform: 'uppercase',
     letterSpacing: 0.8,
     marginTop: 2,
@@ -374,6 +321,17 @@ const styles = StyleSheet.create({
   optionLabel: {
     fontSize: fontSize.md,
     fontFamily: 'SpaceGrotesk_700Bold',
+    flex: 1,
+  },
+  yourPickLabel: {
+    fontSize: fontSize.xs,
+    fontFamily: 'SpaceGrotesk_600SemiBold',
+    color: colors.error,
+  },
+  correctLabel: {
+    fontSize: fontSize.xs,
+    fontFamily: 'SpaceGrotesk_600SemiBold',
+    color: colors.success,
   },
   explanation: {
     marginTop: spacing.md,

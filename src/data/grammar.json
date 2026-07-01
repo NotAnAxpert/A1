@@ -13,7 +13,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am buying the table.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "kaufen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g002",
@@ -29,7 +29,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He has a dog.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "haben → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g003",
@@ -45,7 +45,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We need the lamp.",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "brauchen → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g004",
@@ -61,7 +61,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Do you see the car?",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "sehen → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g005",
@@ -77,7 +77,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Anna is reading a book.",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "lesen → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g006",
@@ -93,7 +93,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I'll take the coffee.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "nehmen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g007",
@@ -109,7 +109,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Maria is looking for the key.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "suchen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g008",
@@ -125,7 +125,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Do you find the bag?",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "finden → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g009",
@@ -141,7 +141,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "I am drinking the water.",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "trinken → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g010",
@@ -157,7 +157,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "We are eating the cake.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "essen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g011",
@@ -173,7 +173,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I would like the soup.",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "moechten → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g012",
@@ -189,7 +189,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Do you have a brother?",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "haben → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g013",
@@ -205,7 +205,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Tom is buying a jacket.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "kaufen → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g014",
@@ -221,7 +221,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I see the children.",
-    "rule": "Plural always uses die in both Nominativ and Akkusativ."
+    "rule": "sehen → Akkusativ. Plural always uses die in both Nominativ and Akkusativ."
   },
   {
     "id": "g015",
@@ -237,7 +237,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "She needs a computer.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "brauchen → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g016",
@@ -253,7 +253,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Are you reading the newspaper?",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "lesen → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g017",
@@ -269,7 +269,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We are looking for an apartment.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "suchen → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g018",
@@ -285,7 +285,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He is drinking the tea.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "trinken → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g019",
@@ -301,7 +301,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I think the movie is good.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "finden → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g020",
@@ -317,7 +317,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Would you like an ice cream?",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "moechten → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g021",
@@ -333,7 +333,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She has a sister.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "haben → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g022",
@@ -349,7 +349,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I'll take the salad.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "nehmen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g023",
@@ -365,7 +365,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Are you buying the phone?",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "kaufen → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g024",
@@ -381,7 +381,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We have a cat.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "haben → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g025",
@@ -397,7 +397,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "He is eating the bread.",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "essen → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g026",
@@ -413,7 +413,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I need a pen.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "brauchen → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g027",
@@ -429,7 +429,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Do you see the church?",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "sehen → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g028",
@@ -445,7 +445,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Lisa is looking for the book.",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "suchen → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g029",
@@ -461,7 +461,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I would like an apple.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "moechten → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g030",
@@ -477,7 +477,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Today we are buying a television.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "kaufen → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g031",
@@ -493,7 +493,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Do you find a solution?",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "finden → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g032",
@@ -509,7 +509,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Tomorrow I need the passport.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "brauchen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g033",
@@ -525,7 +525,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He is reading the letter.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "lesen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g034",
@@ -541,7 +541,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We are drinking the milk.",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "trinken → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g035",
@@ -557,7 +557,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I like to eat a pizza.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "essen → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g036",
@@ -573,7 +573,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Do you have a ticket?",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "haben → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g037",
@@ -589,7 +589,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "On Monday I am buying a dress.",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "kaufen → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g038",
@@ -605,7 +605,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "She sees the man.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "sehen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g039",
@@ -621,7 +621,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am looking for a doctor.",
-    "rule": "Akkusativ changes ein → einen for masculine nouns."
+    "rule": "suchen → Akkusativ. Masculine: ein → einen."
   },
   {
     "id": "g040",
@@ -637,7 +637,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We need a cup.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "brauchen → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g041",
@@ -653,7 +653,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He thinks the idea is great.",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "finden → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g042",
@@ -669,7 +669,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Would you like a piece of cake?",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "moechten → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g043",
@@ -685,7 +685,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I am reading the email.",
-    "rule": "Akkusativ does not change die for feminine nouns."
+    "rule": "lesen → Akkusativ. Feminine: die stays die."
   },
   {
     "id": "g044",
@@ -701,7 +701,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He has a girlfriend.",
-    "rule": "Akkusativ does not change eine for feminine nouns."
+    "rule": "haben → Akkusativ. Feminine: eine stays eine."
   },
   {
     "id": "g045",
@@ -717,7 +717,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Can you open the window?",
-    "rule": "Akkusativ does not change das for neuter nouns."
+    "rule": "oeffnen → Akkusativ. Neuter: das stays das."
   },
   {
     "id": "g046",
@@ -733,7 +733,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We see the mountains.",
-    "rule": "Plural always uses die in both Nominativ and Akkusativ."
+    "rule": "sehen → Akkusativ. Plural always uses die in both Nominativ and Akkusativ."
   },
   {
     "id": "g047",
@@ -749,7 +749,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "She takes the umbrella.",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "nehmen → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g048",
@@ -765,7 +765,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I am buying the flowers.",
-    "rule": "Plural always uses die in both Nominativ and Akkusativ."
+    "rule": "kaufen → Akkusativ. Plural always uses die in both Nominativ and Akkusativ."
   },
   {
     "id": "g049",
@@ -781,7 +781,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Are you drinking the juice?",
-    "rule": "Akkusativ changes der → den for masculine nouns."
+    "rule": "trinken → Akkusativ. Masculine: der → den."
   },
   {
     "id": "g050",
@@ -797,7 +797,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "I would like a glass of wine.",
-    "rule": "Akkusativ does not change ein for neuter nouns."
+    "rule": "moechten → Akkusativ. Neuter: ein stays ein."
   },
   {
     "id": "g051",
@@ -813,7 +813,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am helping the man.",
-    "rule": "Dativ changes der → dem for masculine nouns."
+    "rule": "helfen → Dativ. Masculine: der → dem."
   },
   {
     "id": "g052",
@@ -829,7 +829,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The woman likes the book.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "gefallen → Dativ. Feminine: die → der."
   },
   {
     "id": "g053",
@@ -845,7 +845,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The car belongs to the teacher.",
-    "rule": "Dativ changes der → dem for masculine nouns."
+    "rule": "gehoeren → Dativ. Masculine: der → dem."
   },
   {
     "id": "g054",
@@ -861,7 +861,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I travel by bus.",
-    "rule": "mit always takes Dativ; der → dem for masculine."
+    "rule": "mit → always Dativ. der → dem."
   },
   {
     "id": "g055",
@@ -877,7 +877,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He lives with the family.",
-    "rule": "bei always takes Dativ; die → der for feminine."
+    "rule": "bei → always Dativ. die → der."
   },
   {
     "id": "g056",
@@ -893,7 +893,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am going to the doctor.",
-    "rule": "zu always takes Dativ; der → dem for masculine."
+    "rule": "zu → always Dativ. der → dem."
   },
   {
     "id": "g057",
@@ -909,7 +909,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She is coming from work.",
-    "rule": "von always takes Dativ; die → der for feminine."
+    "rule": "von → always Dativ. die → der."
   },
   {
     "id": "g058",
@@ -925,7 +925,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "After the course we go eat.",
-    "rule": "nach always takes Dativ; der → dem for masculine."
+    "rule": "nach → always Dativ. der → dem."
   },
   {
     "id": "g059",
@@ -941,7 +941,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He comes from Turkey.",
-    "rule": "aus always takes Dativ; die → der for feminine."
+    "rule": "aus → always Dativ. die → der."
   },
   {
     "id": "g060",
@@ -957,7 +957,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "I have been living in Berlin for a year.",
-    "rule": "seit always takes Dativ; ein → einem for neuter."
+    "rule": "seit → always Dativ. ein → einem."
   },
   {
     "id": "g061",
@@ -973,7 +973,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He is talking to the teacher.",
-    "rule": "mit always takes Dativ; die → der for feminine."
+    "rule": "mit → always Dativ. die → der."
   },
   {
     "id": "g062",
@@ -989,7 +989,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The gift is from the friend.",
-    "rule": "von always takes Dativ; der → dem for masculine."
+    "rule": "von → always Dativ. der → dem."
   },
   {
     "id": "g063",
@@ -1005,7 +1005,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We are driving to the school.",
-    "rule": "zu always takes Dativ; die → der for feminine."
+    "rule": "zu → always Dativ. die → der."
   },
   {
     "id": "g064",
@@ -1021,7 +1021,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "I am helping the child.",
-    "rule": "Dativ changes das → dem for neuter nouns."
+    "rule": "helfen → Dativ. Neuter: das → dem."
   },
   {
     "id": "g065",
@@ -1037,7 +1037,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "He rides by bicycle.",
-    "rule": "mit always takes Dativ; das → dem for neuter."
+    "rule": "mit → always Dativ. das → dem."
   },
   {
     "id": "g066",
@@ -1053,7 +1053,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The bag belongs to the woman.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "gehoeren → Dativ. Feminine: die → der."
   },
   {
     "id": "g067",
@@ -1069,7 +1069,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I live at a friend's place.",
-    "rule": "bei always takes Dativ; eine → einer for feminine."
+    "rule": "bei → always Dativ. eine → einer."
   },
   {
     "id": "g068",
@@ -1085,7 +1085,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "After the meal we go for a walk.",
-    "rule": "nach always takes Dativ; das → dem for neuter."
+    "rule": "nach → always Dativ. das → dem."
   },
   {
     "id": "g069",
@@ -1101,7 +1101,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She is going to the bakery.",
-    "rule": "zu always takes Dativ; die → der for feminine."
+    "rule": "zu → always Dativ. die → der."
   },
   {
     "id": "g070",
@@ -1117,7 +1117,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "The girl likes the dress.",
-    "rule": "Dativ changes das → dem for neuter nouns."
+    "rule": "gefallen → Dativ. Neuter: das → dem."
   },
   {
     "id": "g071",
@@ -1133,7 +1133,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I come from Switzerland.",
-    "rule": "aus always takes Dativ; die → der for feminine."
+    "rule": "aus → always Dativ. die → der."
   },
   {
     "id": "g072",
@@ -1149,7 +1149,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He helps the mother.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "helfen → Dativ. Feminine: die → der."
   },
   {
     "id": "g073",
@@ -1165,7 +1165,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "We are going by train.",
-    "rule": "mit always takes Dativ; der → dem for masculine."
+    "rule": "mit → always Dativ. der → dem."
   },
   {
     "id": "g074",
@@ -1181,7 +1181,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The house belongs to the family.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "gehoeren → Dativ. Feminine: die → der."
   },
   {
     "id": "g075",
@@ -1197,7 +1197,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I have been sick for a week.",
-    "rule": "seit always takes Dativ; eine → einer for feminine."
+    "rule": "seit → always Dativ. eine → einer."
   },
   {
     "id": "g076",
@@ -1213,7 +1213,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He lives at his brother's place.",
-    "rule": "bei always takes Dativ; sein → seinem for masculine."
+    "rule": "bei → always Dativ. sein → seinem."
   },
   {
     "id": "g077",
@@ -1229,7 +1229,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am going to the supermarket.",
-    "rule": "zu always takes Dativ; der → dem for masculine."
+    "rule": "zu → always Dativ. der → dem."
   },
   {
     "id": "g078",
@@ -1245,7 +1245,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The children like the game.",
-    "rule": "Dativ Plural always uses den + noun with -n ending."
+    "rule": "gefallen → Dativ. Dativ Plural always uses den + noun with -n ending."
   },
   {
     "id": "g079",
@@ -1261,7 +1261,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "It is ten minutes from the train station.",
-    "rule": "von always takes Dativ; der → dem for masculine."
+    "rule": "von → always Dativ. der → dem."
   },
   {
     "id": "g080",
@@ -1277,7 +1277,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She helps the friends.",
-    "rule": "Dativ Plural always uses den + noun with -n ending."
+    "rule": "helfen → Dativ. Dativ Plural always uses den + noun with -n ending."
   },
   {
     "id": "g081",
@@ -1293,7 +1293,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I travel by tram.",
-    "rule": "mit always takes Dativ; die → der for feminine."
+    "rule": "mit → always Dativ. die → der."
   },
   {
     "id": "g082",
@@ -1309,7 +1309,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "He comes out of the house.",
-    "rule": "aus always takes Dativ; das → dem for neuter."
+    "rule": "aus → always Dativ. das → dem."
   },
   {
     "id": "g083",
@@ -1325,7 +1325,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "After school I go home.",
-    "rule": "nach always takes Dativ; die → der for feminine."
+    "rule": "nach → always Dativ. die → der."
   },
   {
     "id": "g084",
@@ -1341,7 +1341,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The phone belongs to the student.",
-    "rule": "Dativ changes der → dem for masculine nouns."
+    "rule": "gehoeren → Dativ. Masculine: der → dem."
   },
   {
     "id": "g085",
@@ -1357,7 +1357,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I am writing grandma a letter.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "schreiben → Dativ. Feminine: die → der."
   },
   {
     "id": "g086",
@@ -1373,7 +1373,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "We are going to the park.",
-    "rule": "zu always takes Dativ; der → dem for masculine."
+    "rule": "zu → always Dativ. der → dem."
   },
   {
     "id": "g087",
@@ -1389,7 +1389,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "He gives the child a present.",
-    "rule": "Dativ changes das → dem for neuter nouns."
+    "rule": "geben → Dativ. Neuter: das → dem."
   },
   {
     "id": "g088",
@@ -1405,7 +1405,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She is going to the cinema with her friend.",
-    "rule": "mit always takes Dativ; die → der for feminine."
+    "rule": "mit → always Dativ. die → der."
   },
   {
     "id": "g089",
@@ -1421,7 +1421,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am coming from the dentist.",
-    "rule": "von always takes Dativ; der → dem for masculine."
+    "rule": "von → always Dativ. der → dem."
   },
   {
     "id": "g090",
@@ -1437,7 +1437,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The guests like the food.",
-    "rule": "Dativ Plural always uses den + noun with -n ending."
+    "rule": "schmecken → Dativ. Dativ Plural always uses den + noun with -n ending."
   },
   {
     "id": "g091",
@@ -1453,7 +1453,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "She is playing with the dog.",
-    "rule": "mit always takes Dativ; der → dem for masculine."
+    "rule": "mit → always Dativ. der → dem."
   },
   {
     "id": "g092",
@@ -1469,7 +1469,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I have been learning German for a month.",
-    "rule": "seit always takes Dativ; ein → einem for masculine."
+    "rule": "seit → always Dativ. ein → einem."
   },
   {
     "id": "g093",
@@ -1485,7 +1485,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I am going to the post office.",
-    "rule": "zu always takes Dativ; die → der for feminine."
+    "rule": "zu → always Dativ. die → der."
   },
   {
     "id": "g094",
@@ -1501,7 +1501,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The father likes that.",
-    "rule": "Dativ changes der → dem for masculine nouns."
+    "rule": "gefallen → Dativ. Masculine: der → dem."
   },
   {
     "id": "g095",
@@ -1517,7 +1517,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He answers the teacher.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "antworten → Dativ. Feminine: die → der."
   },
   {
     "id": "g096",
@@ -1533,7 +1533,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am at the doctor's.",
-    "rule": "bei always takes Dativ; der → dem for masculine."
+    "rule": "bei → always Dativ. der → dem."
   },
   {
     "id": "g097",
@@ -1549,7 +1549,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "He gives the woman the flowers.",
-    "rule": "Dativ changes die → der for feminine nouns."
+    "rule": "geben → Dativ. Feminine: die → der."
   },
   {
     "id": "g098",
@@ -1565,7 +1565,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "We come from the city.",
-    "rule": "aus always takes Dativ; die → der for feminine."
+    "rule": "aus → always Dativ. die → der."
   },
   {
     "id": "g099",
@@ -1581,7 +1581,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "After breakfast I read the newspaper.",
-    "rule": "nach always takes Dativ; das → dem for neuter."
+    "rule": "nach → always Dativ. das → dem."
   },
   {
     "id": "g100",
@@ -1597,7 +1597,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The people like the music.",
-    "rule": "Dativ Plural always uses den + noun with -n ending."
+    "rule": "gefallen → Dativ. Dativ Plural always uses den + noun with -n ending."
   },
   {
     "id": "g101",
@@ -1613,7 +1613,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "That is a chair.",
-    "rule": "Nominativ uses ein for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = ein."
   },
   {
     "id": "g102",
@@ -1629,7 +1629,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "The book is interesting.",
-    "rule": "Nominativ uses das for neuter nouns."
+    "rule": "Nominativ (subject). Neuter = das."
   },
   {
     "id": "g103",
@@ -1645,7 +1645,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "That is a bag.",
-    "rule": "Nominativ uses eine for feminine nouns."
+    "rule": "Nominativ (subject). Feminine = eine."
   },
   {
     "id": "g104",
@@ -1661,7 +1661,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "I am a student.",
-    "rule": "Nominativ uses ein for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = ein."
   },
   {
     "id": "g105",
@@ -1677,7 +1677,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The man is tall.",
-    "rule": "Nominativ uses der for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = der."
   },
   {
     "id": "g106",
@@ -1693,7 +1693,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "She is becoming a doctor.",
-    "rule": "werden takes Nominativ; eine for feminine nouns."
+    "rule": "werden → Nominativ (not Akkusativ!). Feminine: eine."
   },
   {
     "id": "g107",
@@ -1709,7 +1709,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The woman is called Maria.",
-    "rule": "Nominativ uses die for feminine nouns."
+    "rule": "Nominativ (subject). Feminine = die."
   },
   {
     "id": "g108",
@@ -1725,7 +1725,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "That is a notebook.",
-    "rule": "Nominativ uses ein for neuter nouns."
+    "rule": "Nominativ (subject). Neuter = ein."
   },
   {
     "id": "g109",
@@ -1741,7 +1741,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The children are playing in the garden.",
-    "rule": "Nominativ Plural always uses die."
+    "rule": "Nominativ (subject). Plural always = die."
   },
   {
     "id": "g110",
@@ -1757,7 +1757,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He is a teacher.",
-    "rule": "Nominativ uses ein for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = ein."
   },
   {
     "id": "g111",
@@ -1773,7 +1773,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The cat is sleeping.",
-    "rule": "Nominativ uses die for feminine nouns."
+    "rule": "Nominativ (subject). Feminine = die."
   },
   {
     "id": "g112",
@@ -1789,7 +1789,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "Is that a car?",
-    "rule": "Nominativ uses ein for neuter nouns."
+    "rule": "Nominativ (subject). Neuter = ein."
   },
   {
     "id": "g113",
@@ -1805,7 +1805,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He is becoming an engineer.",
-    "rule": "werden takes Nominativ; ein for masculine nouns."
+    "rule": "werden → Nominativ (not Akkusativ!). Masculine: ein."
   },
   {
     "id": "g114",
@@ -1821,7 +1821,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "The dog is small.",
-    "rule": "Nominativ uses der for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = der."
   },
   {
     "id": "g115",
@@ -1837,7 +1837,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "Those are shoes.",
-    "rule": "Nominativ Plural always uses die."
+    "rule": "Nominativ (subject). Plural always = die."
   },
   {
     "id": "g116",
@@ -1853,7 +1853,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "I am a student.",
-    "rule": "Nominativ uses eine for feminine nouns."
+    "rule": "Nominativ (subject). Feminine = eine."
   },
   {
     "id": "g117",
@@ -1869,7 +1869,7 @@
     "category": "artikel-kasus",
     "gender": "das",
     "translation": "The weather is nice.",
-    "rule": "Nominativ uses das for neuter nouns."
+    "rule": "Nominativ (subject). Neuter = das."
   },
   {
     "id": "g118",
@@ -1885,7 +1885,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "Is that a pen?",
-    "rule": "Nominativ uses ein for masculine nouns."
+    "rule": "Nominativ (subject). Masculine = ein."
   },
   {
     "id": "g119",
@@ -1901,7 +1901,7 @@
     "category": "artikel-kasus",
     "gender": "die",
     "translation": "The teacher is nice.",
-    "rule": "Nominativ uses die for feminine nouns."
+    "rule": "Nominativ (subject). Feminine = die."
   },
   {
     "id": "g120",
@@ -1917,7 +1917,7 @@
     "category": "artikel-kasus",
     "gender": "der",
     "translation": "He is becoming a father.",
-    "rule": "werden takes Nominativ; ein for masculine nouns."
+    "rule": "werden → Nominativ (not Akkusativ!). Masculine: ein."
   },
   {
     "id": "g121",
@@ -2046,7 +2046,7 @@
       "heißt",
       "heiße",
       "heißen",
-      "heißt"
+      "heißet"
     ],
     "correct": 0,
     "category": "verb-konjugation",
@@ -2532,7 +2532,7 @@
     "category": "modalverben",
     "explanation": "ich → kann (können, 1. Person Singular)",
     "translation": "I can speak German well.",
-    "rule": "Modal verb können: ich kann."
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt."
   },
   {
     "id": "g162",
@@ -2547,7 +2547,7 @@
     "category": "modalverben",
     "explanation": "du → musst (müssen, 2. Person Singular)",
     "translation": "You have to get up early tomorrow.",
-    "rule": "Modal verb müssen: du musst."
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst."
   },
   {
     "id": "g163",
@@ -2562,7 +2562,7 @@
     "category": "modalverben",
     "explanation": "man → darf (dürfen, 3. Person Singular)",
     "translation": "You are not allowed to smoke here.",
-    "rule": "Modal verb dürfen: man/er/sie darf."
+    "rule": "dürfen: ich darf, du darfst, er/sie darf, wir dürfen, ihr dürft."
   },
   {
     "id": "g164",
@@ -2577,7 +2577,7 @@
     "category": "modalverben",
     "explanation": "wir → wollen (wollen, 1. Person Plural)",
     "translation": "We want to go to the cinema on the weekend.",
-    "rule": "Modal verb wollen: wir wollen."
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt."
   },
   {
     "id": "g165",
@@ -2592,7 +2592,7 @@
     "category": "modalverben",
     "explanation": "er → soll (sollen, 3. Person Singular)",
     "translation": "He should do more sports.",
-    "rule": "Modal verb sollen: er/sie/es soll."
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt."
   },
   {
     "id": "g166",
@@ -2607,7 +2607,7 @@
     "category": "modalverben",
     "explanation": "ich → möchte (möchten, 1. Person Singular)",
     "translation": "I would like a coffee, please.",
-    "rule": "Modal verb möchten: ich möchte."
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten."
   },
   {
     "id": "g167",
@@ -2622,7 +2622,7 @@
     "category": "modalverben",
     "explanation": "du → kannst (können, 2. Person Singular)",
     "translation": "Can you please help me?",
-    "rule": "Modal verb können: du kannst."
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt."
   },
   {
     "id": "g168",
@@ -2637,7 +2637,7 @@
     "category": "modalverben",
     "explanation": "sie (Plural) → dürfen (dürfen, 3. Person Plural)",
     "translation": "The children are not allowed to play here.",
-    "rule": "Modal verb dürfen: sie (plural) dürfen."
+    "rule": "dürfen: ich darf, du darfst, er/sie darf, wir dürfen, ihr dürft."
   },
   {
     "id": "g169",
@@ -2652,7 +2652,7 @@
     "category": "modalverben",
     "explanation": "sie → kann (können, 3. Person Singular)",
     "translation": "Anna cannot come today.",
-    "rule": "Modal verb können: er/sie/es kann."
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt."
   },
   {
     "id": "g170",
@@ -2667,7 +2667,7 @@
     "category": "modalverben",
     "explanation": "ihr → müsst (müssen, 2. Person Plural)",
     "translation": "You (all) have to do the homework.",
-    "rule": "Modal verb müssen: ihr müsst."
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst."
   },
   {
     "id": "g171",
@@ -2682,7 +2682,7 @@
     "category": "modalverben",
     "explanation": "er → will (wollen, 3. Person Singular)",
     "translation": "Tom wants to buy a new car.",
-    "rule": "Modal verb wollen: er/sie/es will."
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt."
   },
   {
     "id": "g172",
@@ -2697,7 +2697,7 @@
     "category": "modalverben",
     "explanation": "Sie (Höflichkeitsform) → können (können, 3. Person Plural)",
     "translation": "Could you please open the window?",
-    "rule": "Modal verb können: Sie (formal) können."
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt."
   },
   {
     "id": "g173",
@@ -2712,7 +2712,7 @@
     "category": "modalverben",
     "explanation": "wir → möchten (möchten, 1. Person Plural)",
     "translation": "We would like to go to the museum tomorrow.",
-    "rule": "Modal verb möchten: wir möchten."
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten."
   },
   {
     "id": "g174",
@@ -2727,7 +2727,7 @@
     "category": "modalverben",
     "explanation": "du → sollst (sollen, 2. Person Singular)",
     "translation": "You should not listen to music so loudly.",
-    "rule": "Modal verb sollen: du sollst."
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt."
   },
   {
     "id": "g175",
@@ -2742,7 +2742,7 @@
     "category": "modalverben",
     "explanation": "ich → muss (müssen, 1. Person Singular)",
     "translation": "I have to leave earlier today.",
-    "rule": "Modal verb müssen: ich muss."
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst."
   },
   {
     "id": "g176",
@@ -2757,7 +2757,7 @@
     "category": "modalverben",
     "explanation": "ihr → wollt (wollen, 2. Person Plural)",
     "translation": "Do you (all) want to come along tonight?",
-    "rule": "Modal verb wollen: ihr wollt."
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt."
   },
   {
     "id": "g177",
@@ -2772,7 +2772,7 @@
     "category": "modalverben",
     "explanation": "er → kann (können, 3. Person Singular)",
     "translation": "He can play the piano very well.",
-    "rule": "Modal verb können: er/sie/es kann."
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt."
   },
   {
     "id": "g178",
@@ -2787,7 +2787,7 @@
     "category": "modalverben",
     "explanation": "sie (Plural) → sollen (sollen, 3. Person Plural)",
     "translation": "The students should read the text.",
-    "rule": "Modal verb sollen: sie (plural) sollen."
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt."
   },
   {
     "id": "g179",
@@ -2802,7 +2802,7 @@
     "category": "modalverben",
     "explanation": "du → möchtest (möchten, 2. Person Singular)",
     "translation": "Would you like a piece of cake?",
-    "rule": "Modal verb möchten: du möchtest."
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten."
   },
   {
     "id": "g180",
@@ -2817,7 +2817,7 @@
     "category": "modalverben",
     "explanation": "man → darf (dürfen, 3. Person Singular)",
     "translation": "You are not allowed to park here.",
-    "rule": "Modal verb dürfen: man/er/sie darf."
+    "rule": "dürfen: ich darf, du darfst, er/sie darf, wir dürfen, ihr dürft."
   },
   {
     "id": "g181",
@@ -2833,7 +2833,7 @@
     "explanation": "Auto (Neutrum, Akkusativ) → kein Auto",
     "gender": "das",
     "translation": "I don't have a car.",
-    "rule": "Nouns with ein use kein for negation; neuter Akk = kein."
+    "rule": "Nouns with ein/eine → use kein/keine (not nicht)."
   },
   {
     "id": "g182",
@@ -2849,7 +2849,7 @@
     "explanation": "Kaffee (Maskulin, Akkusativ) → keinen Kaffee",
     "gender": "der",
     "translation": "He doesn't drink coffee.",
-    "rule": "Masculine Akkusativ: ein → keinen."
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)"
   },
   {
     "id": "g183",
@@ -2864,7 +2864,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht gut",
     "translation": "That is not good.",
-    "rule": "Use nicht to negate adjectives and adverbs."
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)"
   },
   {
     "id": "g184",
@@ -2880,7 +2880,7 @@
     "explanation": "Zeit (Feminin, Akkusativ) → keine Zeit",
     "gender": "die",
     "translation": "We don't have time.",
-    "rule": "Feminine Akkusativ: eine → keine."
+    "rule": "Feminine Akkusativ: eine → keine. (ein/eine → kein/keine for nouns.)"
   },
   {
     "id": "g185",
@@ -2895,7 +2895,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (am Satzende)",
     "translation": "Tom is not coming today.",
-    "rule": "Use nicht at the end to negate the whole verb action."
+    "rule": "nicht goes at the end to negate the verb. (Ich schlafe nicht.)"
   },
   {
     "id": "g186",
@@ -2910,7 +2910,7 @@
     "category": "negation",
     "explanation": "Sprache ohne Artikel → nicht Französisch",
     "translation": "I don't speak French.",
-    "rule": "Languages without articles are negated with nicht."
+    "rule": "Languages have no article → use nicht (not kein). (nicht Deutsch.)"
   },
   {
     "id": "g187",
@@ -2926,7 +2926,7 @@
     "explanation": "Äpfel (Plural, Nominativ) → keine Äpfel",
     "gender": "die",
     "translation": "Those are not apples.",
-    "rule": "Plural Nominativ: use keine."
+    "rule": "Nominativ plural: → keine. (kein replaces ein for nouns.)"
   },
   {
     "id": "g188",
@@ -2942,7 +2942,7 @@
     "explanation": "Geschwister (Plural, Akkusativ) → keine Geschwister",
     "gender": "die",
     "translation": "He has no siblings.",
-    "rule": "Plural Akkusativ: use keine."
+    "rule": "Akkusativ plural: → keine. (kein replaces ein for nouns.)"
   },
   {
     "id": "g189",
@@ -2957,7 +2957,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht gut",
     "translation": "The food doesn't taste good.",
-    "rule": "Use nicht to negate adjectives and adverbs."
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)"
   },
   {
     "id": "g190",
@@ -2973,7 +2973,7 @@
     "explanation": "Bruder (Maskulin, Akkusativ) → keinen Bruder",
     "gender": "der",
     "translation": "She has no brother.",
-    "rule": "Masculine Akkusativ: ein → keinen."
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)"
   },
   {
     "id": "g191",
@@ -2988,7 +2988,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (vor Präpositionalphrase)",
     "translation": "We are not going to Hamburg tomorrow.",
-    "rule": "Use nicht before a prepositional phrase to negate it."
+    "rule": "nicht goes before the prepositional phrase. (nicht in Berlin.)"
   },
   {
     "id": "g192",
@@ -3004,7 +3004,7 @@
     "explanation": "Hunger (Maskulin, Akkusativ) → keinen Hunger",
     "gender": "der",
     "translation": "I am not hungry.",
-    "rule": "Masculine Akkusativ: ein → keinen."
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)"
   },
   {
     "id": "g193",
@@ -3019,7 +3019,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht schön",
     "translation": "The weather is not nice.",
-    "rule": "Use nicht to negate adjectives and adverbs."
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)"
   },
   {
     "id": "g194",
@@ -3035,7 +3035,7 @@
     "explanation": "Geld (Neutrum, Akkusativ) → kein Geld",
     "gender": "das",
     "translation": "He has no money.",
-    "rule": "Neuter Akkusativ: ein → kein."
+    "rule": "Akkusativ neuter: ein → kein. (kein replaces ein.)"
   },
   {
     "id": "g195",
@@ -3050,7 +3050,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (am Satzende)",
     "translation": "I don't know him.",
-    "rule": "Use nicht at the end to negate the whole verb action."
+    "rule": "nicht goes at the end to negate the verb. (Ich schlafe nicht.)"
   },
   {
     "id": "g196",
@@ -3066,7 +3066,7 @@
     "explanation": "Katze (Feminin, Nominativ) → keine Katze",
     "gender": "die",
     "translation": "That is not a cat, that is a dog.",
-    "rule": "Feminine Nominativ: eine → keine."
+    "rule": "Feminine Nominativ: eine → keine. (ein/eine → kein/keine for nouns.)"
   },
   {
     "id": "g197",
@@ -3082,7 +3082,7 @@
     "explanation": "Fleisch (Neutrum, Akkusativ) → kein Fleisch",
     "gender": "das",
     "translation": "Anna doesn't eat meat.",
-    "rule": "Neuter Akkusativ: ein → kein."
+    "rule": "Akkusativ neuter: ein → kein. (kein replaces ein.)"
   },
   {
     "id": "g198",
@@ -3098,7 +3098,7 @@
     "explanation": "Kinder (Plural, Akkusativ) → keine Kinder",
     "gender": "die",
     "translation": "We don't have children.",
-    "rule": "Plural Akkusativ: use keine."
+    "rule": "Akkusativ plural: → keine. (kein replaces ein for nouns.)"
   },
   {
     "id": "g199",
@@ -3113,7 +3113,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht interessant",
     "translation": "The movie is not interesting.",
-    "rule": "Use nicht to negate adjectives and adverbs."
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)"
   },
   {
     "id": "g200",
@@ -3129,7 +3129,7 @@
     "explanation": "Freundin (Feminin, Akkusativ) → keine Freundin",
     "gender": "die",
     "translation": "He doesn't have a girlfriend.",
-    "rule": "Feminine Akkusativ: eine → keine."
+    "rule": "Feminine Akkusativ: eine → keine. (ein/eine → kein/keine for nouns.)"
   },
   {
     "id": "g201",
@@ -3145,7 +3145,7 @@
     "explanation": "Buch (Neutrum, Nominativ) → mein Buch",
     "gender": "das",
     "translation": "That is my book.",
-    "rule": "Neuter Nominativ: possessive has no ending (mein)."
+    "rule": "Nominativ + neuter → no ending. mein stays mein."
   },
   {
     "id": "g202",
@@ -3161,7 +3161,7 @@
     "explanation": "Tasche (Feminin, Nominativ) → deine Tasche",
     "gender": "die",
     "translation": "Where is your bag?",
-    "rule": "Feminine Nominativ: possessive gets -e ending (deine)."
+    "rule": "Nominativ + feminine → add -e. dein → deine."
   },
   {
     "id": "g203",
@@ -3177,7 +3177,7 @@
     "explanation": "Schlüssel (Maskulin, Akkusativ) → seinen Schlüssel",
     "gender": "der",
     "translation": "He is looking for his key.",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (seinen)."
+    "rule": "Akkusativ + masculine → add -en. sein → seinen."
   },
   {
     "id": "g204",
@@ -3193,7 +3193,7 @@
     "explanation": "Katze (Feminin, Akkusativ) → ihre Katze",
     "gender": "die",
     "translation": "Anna loves her cat.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (ihre)."
+    "rule": "Akkusativ + feminine → add -e. ihr → ihre."
   },
   {
     "id": "g205",
@@ -3209,7 +3209,7 @@
     "explanation": "Haus (Neutrum, Nominativ) → unser Haus",
     "gender": "das",
     "translation": "Our house is very big.",
-    "rule": "Neuter Nominativ: possessive has no ending (unser)."
+    "rule": "Nominativ + neuter → no ending. unser stays unser."
   },
   {
     "id": "g206",
@@ -3225,7 +3225,7 @@
     "explanation": "Handy (Neutrum, Akkusativ) → mein Handy",
     "gender": "das",
     "translation": "I need my phone.",
-    "rule": "Neuter Akkusativ: possessive has no ending (mein)."
+    "rule": "Akkusativ + neuter → no ending. mein stays mein."
   },
   {
     "id": "g207",
@@ -3241,7 +3241,7 @@
     "explanation": "Bruder (Maskulin, Nominativ) → sein Bruder",
     "gender": "der",
     "translation": "That is his brother.",
-    "rule": "Masculine Nominativ: possessive has no ending (sein)."
+    "rule": "Nominativ + masculine → no ending. sein stays sein."
   },
   {
     "id": "g208",
@@ -3257,7 +3257,7 @@
     "explanation": "Eltern (Plural, Akkusativ) → unsere Eltern",
     "gender": "die",
     "translation": "We are visiting our parents.",
-    "rule": "Plural Akkusativ: possessive gets -e ending (unsere)."
+    "rule": "Akkusativ + plural → add -e. unser → unsere."
   },
   {
     "id": "g209",
@@ -3273,7 +3273,7 @@
     "explanation": "Brille (Feminin, Akkusativ) → meine Brille",
     "gender": "die",
     "translation": "Have you seen my glasses?",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (meine)."
+    "rule": "Akkusativ + feminine → add -e. mein → meine."
   },
   {
     "id": "g210",
@@ -3289,7 +3289,7 @@
     "explanation": "Lehrer (Maskulin, Akkusativ) → ihren Lehrer",
     "gender": "der",
     "translation": "Anna knows her teacher well.",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (ihren)."
+    "rule": "Akkusativ + masculine → add -en. ihr → ihren."
   },
   {
     "id": "g211",
@@ -3305,7 +3305,7 @@
     "explanation": "Wohnung (Feminin, Nominativ) → deine Wohnung",
     "gender": "die",
     "translation": "Your apartment is in the city center.",
-    "rule": "Feminine Nominativ: possessive gets -e ending (deine)."
+    "rule": "Nominativ + feminine → add -e. dein → deine."
   },
   {
     "id": "g212",
@@ -3321,7 +3321,7 @@
     "explanation": "Tee (Maskulin, Akkusativ) → seinen Tee",
     "gender": "der",
     "translation": "He is drinking his tea.",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (seinen)."
+    "rule": "Akkusativ + masculine → add -en. sein → seinen."
   },
   {
     "id": "g213",
@@ -3337,7 +3337,7 @@
     "explanation": "Kinder (Plural, Nominativ) → unsere Kinder",
     "gender": "die",
     "translation": "Our children go to school.",
-    "rule": "Plural Nominativ: possessive gets -e ending (unsere)."
+    "rule": "Nominativ + plural → add -e. unser → unsere."
   },
   {
     "id": "g214",
@@ -3353,7 +3353,7 @@
     "explanation": "Hund (Maskulin, Akkusativ) → deinen Hund",
     "gender": "der",
     "translation": "I see your dog in the garden.",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (deinen)."
+    "rule": "Akkusativ + masculine → add -en. dein → deinen."
   },
   {
     "id": "g215",
@@ -3369,7 +3369,7 @@
     "explanation": "Schwester (Feminin, Nominativ) → meine Schwester",
     "gender": "die",
     "translation": "That is my sister.",
-    "rule": "Feminine Nominativ: possessive gets -e ending (meine)."
+    "rule": "Nominativ + feminine → add -e. mein → meine."
   },
   {
     "id": "g216",
@@ -3385,7 +3385,7 @@
     "explanation": "Zeitung (Feminin, Akkusativ) → seine Zeitung",
     "gender": "die",
     "translation": "Tom is reading his newspaper.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (seine)."
+    "rule": "Akkusativ + feminine → add -e. sein → seine."
   },
   {
     "id": "g217",
@@ -3401,7 +3401,7 @@
     "explanation": "Auto (Neutrum, Nominativ) → ihr Auto (von ihr/Anna)",
     "gender": "das",
     "translation": "Where is her car?",
-    "rule": "Neuter Nominativ: possessive has no ending (ihr)."
+    "rule": "Nominativ + neuter → no ending. ihr stays ihr."
   },
   {
     "id": "g218",
@@ -3417,7 +3417,7 @@
     "explanation": "Passwort (Neutrum, Akkusativ) → mein Passwort",
     "gender": "das",
     "translation": "I always forget my password.",
-    "rule": "Neuter Akkusativ: possessive has no ending (mein)."
+    "rule": "Akkusativ + neuter → no ending. mein stays mein."
   },
   {
     "id": "g219",
@@ -3432,7 +3432,7 @@
     "category": "personalpronomen",
     "explanation": "helfen + Dativ → mir (1. Person Singular)",
     "translation": "Can you please help me?",
-    "rule": "helfen always takes Dativ: mir."
+    "rule": "helfen → always Dativ. ich → mir."
   },
   {
     "id": "g220",
@@ -3447,7 +3447,7 @@
     "category": "personalpronomen",
     "explanation": "sehen + Akkusativ → dich (2. Person Singular)",
     "translation": "I see you every day at school.",
-    "rule": "sehen takes Akkusativ: dich."
+    "rule": "sehen → Akkusativ. du → dich."
   },
   {
     "id": "g221",
@@ -3462,7 +3462,7 @@
     "category": "personalpronomen",
     "explanation": "besuchen + Akkusativ → ihn (3. Person Singular, maskulin)",
     "translation": "We are visiting him on Sunday.",
-    "rule": "besuchen takes Akkusativ: ihn (masculine)."
+    "rule": "besuchen → Akkusativ. er → ihn."
   },
   {
     "id": "g222",
@@ -3477,7 +3477,7 @@
     "category": "personalpronomen",
     "explanation": "geben + Dativ → ihr (3. Person Singular, feminin)",
     "translation": "I give her the book.",
-    "rule": "geben takes Dativ for the person: ihr (feminine)."
+    "rule": "geben → Dativ. sie → ihr."
   },
   {
     "id": "g223",
@@ -3492,7 +3492,7 @@
     "category": "personalpronomen",
     "explanation": "für + Akkusativ → uns (1. Person Plural)",
     "translation": "The gift is for us.",
-    "rule": "für takes Akkusativ: uns."
+    "rule": "für → Akkusativ. wir → uns."
   },
   {
     "id": "g224",
@@ -3507,7 +3507,7 @@
     "category": "personalpronomen",
     "explanation": "danken + Dativ → dir (2. Person Singular)",
     "translation": "I thank you for the help.",
-    "rule": "danken always takes Dativ: dir."
+    "rule": "danken → always Dativ. du → dir."
   },
   {
     "id": "g225",
@@ -3522,7 +3522,7 @@
     "category": "personalpronomen",
     "explanation": "kennen + Akkusativ → sie (3. Person Singular, feminin)",
     "translation": "Do you know her?",
-    "rule": "kennen takes Akkusativ: sie (feminine)."
+    "rule": "kennen → Akkusativ. sie → sie."
   },
   {
     "id": "g226",
@@ -3537,7 +3537,7 @@
     "category": "personalpronomen",
     "explanation": "schreiben + Dativ → ihm (3. Person Singular, maskulin)",
     "translation": "He writes him a letter.",
-    "rule": "schreiben takes Dativ for the person: ihm."
+    "rule": "schreiben → Dativ. er → ihm."
   },
   {
     "id": "g227",
@@ -3552,7 +3552,7 @@
     "category": "personalpronomen",
     "explanation": "anrufen + Akkusativ → euch (2. Person Plural)",
     "translation": "I will call you (all) tomorrow.",
-    "rule": "anrufen takes Akkusativ: euch."
+    "rule": "anrufen → Akkusativ. ihr → euch."
   },
   {
     "id": "g228",
@@ -3567,7 +3567,7 @@
     "category": "personalpronomen",
     "explanation": "geben + Dativ → ihnen (3. Person Plural)",
     "translation": "The teacher gives them the books back.",
-    "rule": "geben takes Dativ for the person: ihnen (plural)."
+    "rule": "geben → Dativ. sie (Plural) → ihnen."
   },
   {
     "id": "g229",
@@ -3582,7 +3582,7 @@
     "category": "personalpronomen",
     "explanation": "lieben + Akkusativ → dich (2. Person Singular)",
     "translation": "I love you.",
-    "rule": "lieben takes Akkusativ: dich."
+    "rule": "lieben → Akkusativ. du → dich."
   },
   {
     "id": "g230",
@@ -3597,7 +3597,7 @@
     "category": "personalpronomen",
     "explanation": "gefallen + Dativ → mir (1. Person Singular)",
     "translation": "I like the dress.",
-    "rule": "gefallen always takes Dativ: mir."
+    "rule": "gefallen → always Dativ. ich → mir."
   },
   {
     "id": "g231",
@@ -3612,7 +3612,7 @@
     "category": "personalpronomen",
     "explanation": "sehen + Akkusativ → es (3. Person Singular, Neutrum)",
     "translation": "Have you seen it?",
-    "rule": "sehen takes Akkusativ: es (neuter)."
+    "rule": "sehen → Akkusativ. es → es."
   },
   {
     "id": "g232",
@@ -3627,7 +3627,7 @@
     "category": "personalpronomen",
     "explanation": "helfen + Dativ → uns (1. Person Plural)",
     "translation": "Anna helps us with cooking.",
-    "rule": "helfen always takes Dativ: uns."
+    "rule": "helfen → always Dativ. wir → uns."
   },
   {
     "id": "g233",
@@ -3642,7 +3642,7 @@
     "category": "personalpronomen",
     "explanation": "sagen + Dativ → ihm (3. Person Singular, maskulin)",
     "translation": "The doctor tells him: 'You are healthy.'",
-    "rule": "sagen takes Dativ for the person: ihm."
+    "rule": "sagen → Dativ. er → ihm."
   },
   {
     "id": "g234",
@@ -3657,7 +3657,7 @@
     "category": "personalpronomen",
     "explanation": "bringen + Dativ → dir (2. Person Singular)",
     "translation": "I will bring you the money tomorrow.",
-    "rule": "bringen takes Dativ for the person: dir."
+    "rule": "bringen → Dativ. du → dir."
   },
   {
     "id": "g235",
@@ -3672,7 +3672,7 @@
     "category": "personalpronomen",
     "explanation": "einladen + Akkusativ → sie (3. Person Plural)",
     "translation": "We are inviting them to the party.",
-    "rule": "einladen takes Akkusativ: sie (plural)."
+    "rule": "einladen → Akkusativ. sie → sie."
   },
   {
     "id": "g236",
@@ -3687,7 +3687,7 @@
     "category": "personalpronomen",
     "explanation": "gefallen + Dativ → ihm (3. Person Singular, maskulin)",
     "translation": "He really likes the music.",
-    "rule": "gefallen always takes Dativ: ihm."
+    "rule": "gefallen → always Dativ. er → ihm."
   },
   {
     "id": "g237",
@@ -3702,7 +3702,7 @@
     "category": "personalpronomen",
     "explanation": "fragen + Akkusativ → mich (1. Person Singular)",
     "translation": "Tom asks me: 'Where is the train station?'",
-    "rule": "fragen takes Akkusativ: mich."
+    "rule": "fragen → Akkusativ. ich → mich."
   },
   {
     "id": "g238",
@@ -3717,7 +3717,7 @@
     "category": "personalpronomen",
     "explanation": "schicken + Dativ → euch (2. Person Plural)",
     "translation": "I am sending you (all) a message.",
-    "rule": "schicken takes Dativ for the person: euch."
+    "rule": "schicken → Dativ. ihr → euch."
   },
   {
     "id": "g239",
@@ -4032,7 +4032,7 @@
     "category": "praepositionen",
     "explanation": "Stadt → in Berlin (ohne Artikel)",
     "translation": "I live in Berlin.",
-    "rule": "Cities use in without an article."
+    "rule": "Cities: no article. Wo? → in Berlin. Wohin? → nach Berlin."
   },
   {
     "id": "g260",
@@ -4048,7 +4048,7 @@
     "explanation": "Richtung + Neutrum → ins Kino (in + das)",
     "gender": "das",
     "translation": "We are going to the cinema.",
-    "rule": "Direction into a neuter place: ins = in + das."
+    "rule": "Wohin? (direction) → Akkusativ. in + das = ins."
   },
   {
     "id": "g261",
@@ -4063,7 +4063,7 @@
     "category": "praepositionen",
     "explanation": "Zeitraum → von Montag bis Freitag",
     "translation": "Tom works from Monday to Friday.",
-    "rule": "Time range: von ... bis ... (from ... to ...)."
+    "rule": "Wann? (when) → von ... bis ... (from ... to ...)."
   },
   {
     "id": "g262",
@@ -4079,7 +4079,7 @@
     "explanation": "Richtung + Maskulin → zum Arzt (zu + dem)",
     "gender": "der",
     "translation": "I am going to the doctor.",
-    "rule": "Direction to a masculine person/place: zum = zu + dem."
+    "rule": "Wohin? (direction) → zu + Dativ. zu + dem = zum."
   },
   {
     "id": "g263",
@@ -4095,7 +4095,7 @@
     "explanation": "Ort + Maskulin → im Supermarkt (in + dem)",
     "gender": "der",
     "translation": "Anna is at the supermarket.",
-    "rule": "Location in a masculine place: im = in + dem."
+    "rule": "Wo? (location) → Dativ. in + dem = im."
   },
   {
     "id": "g264",
@@ -4111,7 +4111,7 @@
     "explanation": "Herkunft + Land mit Artikel → aus der Türkei",
     "gender": "die",
     "translation": "He comes from Turkey.",
-    "rule": "Origin from a country with article: aus + Dativ."
+    "rule": "Woher? (where from) → aus + Dativ."
   },
   {
     "id": "g265",
@@ -4126,7 +4126,7 @@
     "category": "praepositionen",
     "explanation": "Richtung + Stadt → nach München",
     "translation": "We are driving to Munich.",
-    "rule": "Direction to a city: use nach."
+    "rule": "Wohin? (direction) → nach + city (no article)."
   },
   {
     "id": "g266",
@@ -4142,7 +4142,7 @@
     "explanation": "Transportmittel → mit dem Bus",
     "gender": "der",
     "translation": "I take the bus to work.",
-    "rule": "Means of transport: mit + Dativ."
+    "rule": "mit always takes Dativ. mit + dem Bus/Zug/Auto."
   },
   {
     "id": "g267",
@@ -4158,7 +4158,7 @@
     "explanation": "Ort (vertikal) → an der Wand",
     "gender": "die",
     "translation": "The picture hangs on the wall.",
-    "rule": "Vertical surface location: an + Dativ."
+    "rule": "Wo? (location) → Dativ. an + Dativ."
   },
   {
     "id": "g268",
@@ -4173,7 +4173,7 @@
     "category": "praepositionen",
     "explanation": "Zeitdauer bis jetzt → seit zwei Jahren",
     "translation": "I have been living in Germany for two years.",
-    "rule": "Duration continuing to now: seit + Dativ."
+    "rule": "Seit wann? (since when) → seit + Dativ."
   },
   {
     "id": "g269",
@@ -4189,7 +4189,7 @@
     "explanation": "Richtung + Feminin → zur Schule (zu + der)",
     "gender": "die",
     "translation": "She is going to school.",
-    "rule": "Direction to a feminine place: zur = zu + der."
+    "rule": "Wohin? (direction) → zu + Dativ. zu + der = zur."
   },
   {
     "id": "g270",
@@ -4205,7 +4205,7 @@
     "explanation": "Ort (horizontal) → auf dem Tisch",
     "gender": "der",
     "translation": "The book is on the table.",
-    "rule": "Horizontal surface location: auf + Dativ."
+    "rule": "Wo? (location) → Dativ. auf + Dativ."
   },
   {
     "id": "g271",
@@ -4221,7 +4221,7 @@
     "explanation": "bei + Person → bei seiner Freundin (wohnen bei)",
     "gender": "die",
     "translation": "He lives at his girlfriend's place.",
-    "rule": "Living at someone's place: bei + Dativ."
+    "rule": "Wo? (location) → bei + Dativ."
   },
   {
     "id": "g272",
@@ -4237,7 +4237,7 @@
     "explanation": "Ort + Maskulin → am Bahnhof (an + dem)",
     "gender": "der",
     "translation": "We are meeting at the train station.",
-    "rule": "Location at a masculine place: am = an + dem."
+    "rule": "Wo? (location) → Dativ. an + dem = am."
   },
   {
     "id": "g273",
@@ -4253,7 +4253,7 @@
     "explanation": "Herkunft + Neutrum → vom Büro (von + dem)",
     "gender": "das",
     "translation": "I am just coming from the office.",
-    "rule": "Coming from a neuter place: vom = von + dem."
+    "rule": "Woher? (where from) → von + Dativ. von + dem = vom."
   },
   {
     "id": "g274",
@@ -4268,7 +4268,7 @@
     "category": "praepositionen",
     "explanation": "Richtung → nach Hause (feste Wendung)",
     "translation": "He is going home.",
-    "rule": "nach Hause is a fixed expression meaning 'going home'."
+    "rule": "Wohin? → nach Hause (going home). Fixed expression."
   },
   {
     "id": "g275",
@@ -4284,7 +4284,7 @@
     "explanation": "Ort + Maskulin → beim Arzt (bei + dem)",
     "gender": "der",
     "translation": "Tom is at the doctor's.",
-    "rule": "Being at a masculine person's place: beim = bei + dem."
+    "rule": "Wo? (location) → bei + Dativ. bei + dem = beim."
   },
   {
     "id": "g276",
@@ -4300,7 +4300,7 @@
     "explanation": "Ort (horizontal) → auf dem Stuhl",
     "gender": "der",
     "translation": "The cat is sitting on the chair.",
-    "rule": "Horizontal surface location: auf + Dativ."
+    "rule": "Wo? (location) → Dativ. auf + Dativ."
   },
   {
     "id": "g277",
@@ -4315,7 +4315,7 @@
     "category": "praepositionen",
     "explanation": "warten auf + Akkusativ → auf dich",
     "translation": "I am waiting for you.",
-    "rule": "warten auf is a fixed verb-preposition combination."
+    "rule": "warten auf + Akkusativ. Fixed verb + preposition combination."
   },
   {
     "id": "g278",
@@ -4330,7 +4330,7 @@
     "category": "praepositionen",
     "explanation": "Herkunft + Land ohne Artikel → aus Österreich",
     "translation": "Anna comes from Austria.",
-    "rule": "Origin from a country without article: aus."
+    "rule": "Woher? (where from) → aus (+ country without article)."
   },
   {
     "id": "g279",
@@ -5424,7 +5424,7 @@
     "category": "modalverben",
     "explanation": "ich → will (wollen, 1. Person Singular)",
     "translation": "I don't want to work today.",
-    "rule": "Modal verb wollen: ich will.",
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt.",
     "id": "g351"
   },
   {
@@ -5439,7 +5439,7 @@
     "category": "modalverben",
     "explanation": "du → darfst (dürfen, 2. Person Singular)",
     "translation": "You are not allowed to swim here.",
-    "rule": "Modal verb dürfen: du darfst.",
+    "rule": "dürfen: ich darf, du darfst, er/sie darf, wir dürfen, ihr dürft.",
     "id": "g352"
   },
   {
@@ -5454,7 +5454,7 @@
     "category": "modalverben",
     "explanation": "er → möchte (möchten, 3. Person Singular)",
     "translation": "He would like to sleep all day.",
-    "rule": "Modal verb möchten: er/sie/es möchte.",
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten.",
     "id": "g353"
   },
   {
@@ -5469,7 +5469,7 @@
     "category": "modalverben",
     "explanation": "wir → müssen (müssen, 1. Person Plural)",
     "translation": "We have to be there at 8 o'clock.",
-    "rule": "Modal verb müssen: wir müssen.",
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst.",
     "id": "g354"
   },
   {
@@ -5484,7 +5484,7 @@
     "category": "modalverben",
     "explanation": "du → kannst (können, 2. Person Singular)",
     "translation": "Can you drive a car?",
-    "rule": "Modal verb können: du kannst.",
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt.",
     "id": "g355"
   },
   {
@@ -5499,7 +5499,7 @@
     "category": "modalverben",
     "explanation": "ihr → sollt (sollen, 2. Person Plural)",
     "translation": "You (all) should be quiet.",
-    "rule": "Modal verb sollen: ihr sollt.",
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt.",
     "id": "g356"
   },
   {
@@ -5514,7 +5514,7 @@
     "category": "modalverben",
     "explanation": "sie (Plural) → wollen (wollen, 3. Person Plural)",
     "translation": "The children want to play outside.",
-    "rule": "Modal verb wollen: sie (plural) wollen.",
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt.",
     "id": "g357"
   },
   {
@@ -5529,7 +5529,7 @@
     "category": "modalverben",
     "explanation": "er → muss (müssen, 3. Person Singular)",
     "translation": "He has to go to the dentist.",
-    "rule": "Modal verb müssen: er/sie/es muss.",
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst.",
     "id": "g358"
   },
   {
@@ -5544,7 +5544,7 @@
     "category": "modalverben",
     "explanation": "Sie → können (können, Höflichkeitsform)",
     "translation": "Could you please show me the way?",
-    "rule": "Modal verb können: Sie (formal) können.",
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt.",
     "id": "g359"
   },
   {
@@ -5559,7 +5559,7 @@
     "category": "modalverben",
     "explanation": "ich → möchte (möchten, 1. Person Singular)",
     "translation": "I would like to have tomorrow off.",
-    "rule": "Modal verb möchten: ich möchte.",
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten.",
     "id": "g360"
   },
   {
@@ -5574,7 +5574,7 @@
     "category": "modalverben",
     "explanation": "du → sollst (sollen, 2. Person Singular)",
     "translation": "You should drink more water.",
-    "rule": "Modal verb sollen: du sollst.",
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt.",
     "id": "g361"
   },
   {
@@ -5589,7 +5589,7 @@
     "category": "modalverben",
     "explanation": "wir → wollen (wollen, 1. Person Plural)",
     "translation": "We want to fly to Paris next week.",
-    "rule": "Modal verb wollen: wir wollen.",
+    "rule": "wollen: ich will, du willst, er/sie will, wir wollen, ihr wollt.",
     "id": "g362"
   },
   {
@@ -5604,7 +5604,7 @@
     "category": "modalverben",
     "explanation": "ihr → könnt (können, 2. Person Plural)",
     "translation": "Can you (all) come tomorrow?",
-    "rule": "Modal verb können: ihr könnt.",
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt.",
     "id": "g363"
   },
   {
@@ -5619,7 +5619,7 @@
     "category": "modalverben",
     "explanation": "man → soll (sollen, 3. Person Singular)",
     "translation": "One should speak quietly here.",
-    "rule": "Modal verb sollen: man/er/sie soll.",
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt.",
     "id": "g364"
   },
   {
@@ -5634,7 +5634,7 @@
     "category": "modalverben",
     "explanation": "ich → kann (können, 1. Person Singular)",
     "translation": "I can play guitar.",
-    "rule": "Modal verb können: ich kann.",
+    "rule": "können: ich kann, du kannst, er/sie kann, wir können, ihr könnt.",
     "id": "g365"
   },
   {
@@ -5649,7 +5649,7 @@
     "category": "modalverben",
     "explanation": "er → muss (müssen, 3. Person Singular)",
     "translation": "He has to do his homework.",
-    "rule": "Modal verb müssen: er/sie/es muss.",
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst.",
     "id": "g366"
   },
   {
@@ -5664,7 +5664,7 @@
     "category": "modalverben",
     "explanation": "du → möchtest (möchten, 2. Person Singular)",
     "translation": "Would you like a glass of water?",
-    "rule": "Modal verb möchten: du möchtest.",
+    "rule": "möchten: ich möchte, du möchtest, er/sie möchte, wir möchten.",
     "id": "g367"
   },
   {
@@ -5679,7 +5679,7 @@
     "category": "modalverben",
     "explanation": "sie (Plural) → müssen (müssen, 3. Person Plural)",
     "translation": "The students have to retake the exam.",
-    "rule": "Modal verb müssen: sie (plural) müssen.",
+    "rule": "müssen: ich muss, du musst, er/sie muss, wir müssen, ihr müsst.",
     "id": "g368"
   },
   {
@@ -5694,7 +5694,7 @@
     "category": "modalverben",
     "explanation": "ihr → sollt (sollen, 2. Person Plural)",
     "translation": "You (all) should not eat so much sugar.",
-    "rule": "Modal verb sollen: ihr sollt.",
+    "rule": "sollen: ich soll, du sollst, er/sie soll, wir sollen, ihr sollt.",
     "id": "g369"
   },
   {
@@ -5709,7 +5709,7 @@
     "category": "modalverben",
     "explanation": "ich → darf (dürfen, 1. Person Singular)",
     "translation": "May I sit here?",
-    "rule": "Modal verb dürfen: ich darf.",
+    "rule": "dürfen: ich darf, du darfst, er/sie darf, wir dürfen, ihr dürft.",
     "id": "g370"
   },
   {
@@ -5725,7 +5725,7 @@
     "explanation": "Fahrrad (Neutrum, Akkusativ) → kein Fahrrad",
     "gender": "das",
     "translation": "I don't have a bicycle.",
-    "rule": "Neuter Akkusativ: ein → kein.",
+    "rule": "Akkusativ neuter: ein → kein. (kein replaces ein.)",
     "id": "g371"
   },
   {
@@ -5740,7 +5740,7 @@
     "category": "negation",
     "explanation": "Sprache ohne Artikel → nicht Spanisch",
     "translation": "He doesn't speak Spanish.",
-    "rule": "Languages without articles are negated with nicht.",
+    "rule": "Languages have no article → use nicht (not kein). (nicht Deutsch.)",
     "id": "g372"
   },
   {
@@ -5756,7 +5756,7 @@
     "explanation": "Fernseher (Maskulin, Akkusativ) → keinen Fernseher",
     "gender": "der",
     "translation": "We are not buying a television.",
-    "rule": "Masculine Akkusativ: ein → keinen.",
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)",
     "id": "g373"
   },
   {
@@ -5771,7 +5771,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht groß",
     "translation": "The room is not big.",
-    "rule": "Use nicht to negate adjectives and adverbs.",
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)",
     "id": "g374"
   },
   {
@@ -5787,7 +5787,7 @@
     "explanation": "Milch (Feminin, Akkusativ) → keine Milch",
     "gender": "die",
     "translation": "She doesn't drink milk.",
-    "rule": "Feminine Akkusativ: eine → keine.",
+    "rule": "Feminine Akkusativ: eine → keine. (ein/eine → kein/keine for nouns.)",
     "id": "g375"
   },
   {
@@ -5802,7 +5802,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (am Satzende)",
     "translation": "He is not working today.",
-    "rule": "Use nicht at the end to negate the whole verb action.",
+    "rule": "nicht goes at the end to negate the verb. (Ich schlafe nicht.)",
     "id": "g376"
   },
   {
@@ -5818,7 +5818,7 @@
     "explanation": "Heft (Neutrum, Akkusativ) → kein Heft",
     "gender": "das",
     "translation": "I don't have a notebook.",
-    "rule": "Neuter Akkusativ: ein → kein.",
+    "rule": "Akkusativ neuter: ein → kein. (kein replaces ein.)",
     "id": "g377"
   },
   {
@@ -5834,7 +5834,7 @@
     "explanation": "Hund (Maskulin, Nominativ) → kein Hund",
     "gender": "der",
     "translation": "That is not a dog, that is a cat.",
-    "rule": "Masculine Nominativ: ein → kein.",
+    "rule": "Nominativ masculine: ein → kein. (kein replaces ein.)",
     "id": "g378"
   },
   {
@@ -5850,7 +5850,7 @@
     "explanation": "Teller (Plural, Akkusativ) → keine Teller",
     "gender": "die",
     "translation": "We don't have any plates.",
-    "rule": "Plural Akkusativ: use keine.",
+    "rule": "Akkusativ plural: → keine. (kein replaces ein for nouns.)",
     "id": "g379"
   },
   {
@@ -5865,7 +5865,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (vor Präpositionalphrase)",
     "translation": "The train doesn't go to Hamburg.",
-    "rule": "Use nicht before a prepositional phrase to negate it.",
+    "rule": "nicht goes before the prepositional phrase. (nicht in Berlin.)",
     "id": "g380"
   },
   {
@@ -5881,7 +5881,7 @@
     "explanation": "Regenschirm (Maskulin, Akkusativ) → keinen Regenschirm",
     "gender": "der",
     "translation": "I don't need an umbrella.",
-    "rule": "Masculine Akkusativ: ein → keinen.",
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)",
     "id": "g381"
   },
   {
@@ -5896,7 +5896,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht alt",
     "translation": "The house is not old.",
-    "rule": "Use nicht to negate adjectives and adverbs.",
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)",
     "id": "g382"
   },
   {
@@ -5912,7 +5912,7 @@
     "explanation": "Tasche (Feminin, Akkusativ) → keine Tasche",
     "gender": "die",
     "translation": "She doesn't have a bag.",
-    "rule": "Feminine Akkusativ: eine → keine.",
+    "rule": "Feminine Akkusativ: eine → keine. (ein/eine → kein/keine for nouns.)",
     "id": "g383"
   },
   {
@@ -5927,7 +5927,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (am Satzende)",
     "translation": "We don't understand that.",
-    "rule": "Use nicht at the end to negate the whole verb action.",
+    "rule": "nicht goes at the end to negate the verb. (Ich schlafe nicht.)",
     "id": "g384"
   },
   {
@@ -5943,7 +5943,7 @@
     "explanation": "Fisch (Maskulin, Akkusativ) → keinen Fisch",
     "gender": "der",
     "translation": "He doesn't eat fish.",
-    "rule": "Masculine Akkusativ: ein → keinen.",
+    "rule": "Masculine Akkusativ: einen → keinen. (kein replaces ein.)",
     "id": "g385"
   },
   {
@@ -5958,7 +5958,7 @@
     "category": "negation",
     "explanation": "Adjektiv-Negation → nicht warm",
     "translation": "The water is not warm.",
-    "rule": "Use nicht to negate adjectives and adverbs.",
+    "rule": "nicht goes before adjectives/adverbs. (nicht gut, nicht gern.)",
     "id": "g386"
   },
   {
@@ -5974,7 +5974,7 @@
     "explanation": "Ahnung (Feminin, Akkusativ) → keine Ahnung",
     "gender": "die",
     "translation": "I have no idea.",
-    "rule": "Feminine Akkusativ: eine → keine.",
+    "rule": "Feminine Akkusativ: eine → keine. (ein/eine → kein/keine for nouns.)",
     "id": "g387"
   },
   {
@@ -5989,7 +5989,7 @@
     "category": "negation",
     "explanation": "Verb-Negation → nicht (vor Präpositionalphrase)",
     "translation": "He doesn't come from Germany.",
-    "rule": "Use nicht before a prepositional phrase to negate it.",
+    "rule": "nicht goes before the prepositional phrase. (nicht in Berlin.)",
     "id": "g388"
   },
   {
@@ -6005,7 +6005,7 @@
     "explanation": "Bücher (Plural, Nominativ) → keine Bücher",
     "gender": "die",
     "translation": "Those are not books, those are notebooks.",
-    "rule": "Plural Nominativ: use keine.",
+    "rule": "Nominativ plural: → keine. (kein replaces ein for nouns.)",
     "id": "g389"
   },
   {
@@ -6020,7 +6020,7 @@
     "category": "negation",
     "explanation": "Adverb-Negation → nicht gern",
     "translation": "She doesn't like to sing.",
-    "rule": "Use nicht to negate adverbs like gern.",
+    "rule": "nicht goes before adverbs. (nicht gern = don't like to.)",
     "id": "g390"
   },
   {
@@ -6035,7 +6035,7 @@
     "category": "personalpronomen",
     "explanation": "geben + Dativ → mir (1. Person Singular)",
     "translation": "He gives me an apple.",
-    "rule": "geben takes Dativ for the person: mir.",
+    "rule": "geben → Dativ. ich → mir.",
     "id": "g391"
   },
   {
@@ -6050,7 +6050,7 @@
     "category": "personalpronomen",
     "explanation": "hören + Akkusativ → dich (2. Person Singular)",
     "translation": "I can't hear you.",
-    "rule": "hören takes Akkusativ: dich.",
+    "rule": "hören → Akkusativ. du → dich.",
     "id": "g392"
   },
   {
@@ -6065,7 +6065,7 @@
     "category": "personalpronomen",
     "explanation": "zeigen + Dativ → ihnen (3. Person Plural)",
     "translation": "We show them the way.",
-    "rule": "zeigen takes Dativ for the person: ihnen.",
+    "rule": "zeigen → Dativ. sie (Plural) → ihnen.",
     "id": "g393"
   },
   {
@@ -6080,7 +6080,7 @@
     "category": "personalpronomen",
     "explanation": "anrufen + Akkusativ → mich (1. Person Singular)",
     "translation": "The boss calls me.",
-    "rule": "anrufen takes Akkusativ: mich.",
+    "rule": "anrufen → Akkusativ. ich → mich.",
     "id": "g394"
   },
   {
@@ -6095,7 +6095,7 @@
     "category": "personalpronomen",
     "explanation": "erklären + Dativ → ihm (3. Person Singular, maskulin)",
     "translation": "I explain the task to him.",
-    "rule": "erklären takes Dativ for the person: ihm.",
+    "rule": "erklären → Dativ. er → ihm.",
     "id": "g395"
   },
   {
@@ -6110,7 +6110,7 @@
     "category": "personalpronomen",
     "explanation": "schmecken + Dativ → uns (1. Person Plural)",
     "translation": "The food tastes good to us.",
-    "rule": "schmecken takes Dativ: uns.",
+    "rule": "schmecken → Dativ. wir → uns.",
     "id": "g396"
   },
   {
@@ -6125,7 +6125,7 @@
     "category": "personalpronomen",
     "explanation": "verstehen + Akkusativ → ihn (3. Person Singular, maskulin)",
     "translation": "I don't understand him.",
-    "rule": "verstehen takes Akkusativ: ihn.",
+    "rule": "verstehen → Akkusativ. er → ihn.",
     "id": "g397"
   },
   {
@@ -6140,7 +6140,7 @@
     "category": "personalpronomen",
     "explanation": "bringen + Dativ → ihr (3. Person Singular, feminin)",
     "translation": "He brings her flowers.",
-    "rule": "bringen takes Dativ for the person: ihr.",
+    "rule": "bringen → Dativ. sie → ihr.",
     "id": "g398"
   },
   {
@@ -6155,7 +6155,7 @@
     "category": "personalpronomen",
     "explanation": "brauchen + Akkusativ → uns (1. Person Plural)",
     "translation": "The children need us.",
-    "rule": "brauchen takes Akkusativ: uns.",
+    "rule": "brauchen → Akkusativ. wir → uns.",
     "id": "g399"
   },
   {
@@ -6170,7 +6170,7 @@
     "category": "personalpronomen",
     "explanation": "schreiben + Dativ → dir (2. Person Singular)",
     "translation": "I am writing you a card.",
-    "rule": "schreiben takes Dativ for the person: dir.",
+    "rule": "schreiben → Dativ. du → dir.",
     "id": "g400"
   },
   {
@@ -6185,7 +6185,7 @@
     "category": "personalpronomen",
     "explanation": "sehen + Akkusativ → sie (3. Person Singular, feminin)",
     "translation": "Do you see her?",
-    "rule": "sehen takes Akkusativ: sie (feminine).",
+    "rule": "sehen → Akkusativ. sie → sie.",
     "id": "g401"
   },
   {
@@ -6200,7 +6200,7 @@
     "category": "personalpronomen",
     "explanation": "gehören + Dativ → mir (1. Person Singular)",
     "translation": "The jacket belongs to me.",
-    "rule": "gehören always takes Dativ: mir.",
+    "rule": "gehören → always Dativ. ich → mir.",
     "id": "g402"
   },
   {
@@ -6215,7 +6215,7 @@
     "category": "personalpronomen",
     "explanation": "abholen + Akkusativ → euch (2. Person Plural)",
     "translation": "I will pick you (all) up from the station.",
-    "rule": "abholen takes Akkusativ: euch.",
+    "rule": "abholen → Akkusativ. ihr → euch.",
     "id": "g403"
   },
   {
@@ -6230,7 +6230,7 @@
     "category": "personalpronomen",
     "explanation": "erzählen + Dativ → uns (1. Person Plural)",
     "translation": "He tells us a story.",
-    "rule": "erzählen takes Dativ for the person: uns.",
+    "rule": "erzählen → Dativ. wir → uns.",
     "id": "g404"
   },
   {
@@ -6245,7 +6245,7 @@
     "category": "personalpronomen",
     "explanation": "kennen + Akkusativ → dich (2. Person Singular)",
     "translation": "We know you very well.",
-    "rule": "kennen takes Akkusativ: dich.",
+    "rule": "kennen → Akkusativ. du → dich.",
     "id": "g405"
   },
   {
@@ -6260,7 +6260,7 @@
     "category": "personalpronomen",
     "explanation": "antworten + Dativ → ihr (3. Person Singular, feminin)",
     "translation": "He answers her right away.",
-    "rule": "antworten always takes Dativ: ihr.",
+    "rule": "antworten → always Dativ. sie → ihr.",
     "id": "g406"
   },
   {
@@ -6290,7 +6290,7 @@
     "category": "personalpronomen",
     "explanation": "fragen + Akkusativ → sie (3. Person Plural)",
     "translation": "The teacher asks them.",
-    "rule": "fragen takes Akkusativ: sie (plural).",
+    "rule": "fragen → Akkusativ. sie → sie.",
     "id": "g408"
   },
   {
@@ -6305,7 +6305,7 @@
     "category": "personalpronomen",
     "explanation": "gefallen + Dativ → euch (2. Person Plural)",
     "translation": "You (all) like the game.",
-    "rule": "gefallen always takes Dativ: euch.",
+    "rule": "gefallen → always Dativ. ihr → euch.",
     "id": "g409"
   },
   {
@@ -6320,7 +6320,7 @@
     "category": "personalpronomen",
     "explanation": "leihen + Dativ → dir (2. Person Singular)",
     "translation": "I am lending you my book.",
-    "rule": "leihen takes Dativ for the person: dir.",
+    "rule": "leihen → Dativ. du → dir.",
     "id": "g410"
   },
   {
@@ -6635,7 +6635,7 @@
     "category": "praepositionen",
     "explanation": "Ort → zu Hause (feste Wendung)",
     "translation": "I am at home.",
-    "rule": "zu Hause is a fixed expression meaning 'at home'.",
+    "rule": "Wo? → zu Hause (at home). Fixed expression.",
     "id": "g431"
   },
   {
@@ -6651,7 +6651,7 @@
     "explanation": "Richtung + Neutrum → ins Schwimmbad (in + das)",
     "gender": "das",
     "translation": "We are going to the swimming pool.",
-    "rule": "Direction into a neuter place: ins = in + das.",
+    "rule": "Wohin? (direction) → Akkusativ. in + das = ins.",
     "id": "g432"
   },
   {
@@ -6667,7 +6667,7 @@
     "explanation": "Ort → vor dem Café",
     "gender": "das",
     "translation": "He is waiting in front of the café.",
-    "rule": "Location in front of: vor + Dativ.",
+    "rule": "Wo? (location) → Dativ. vor + Dativ.",
     "id": "g433"
   },
   {
@@ -6683,7 +6683,7 @@
     "explanation": "Transportmittel → mit dem Fahrrad",
     "gender": "das",
     "translation": "She rides a bicycle.",
-    "rule": "Means of transport: mit + Dativ.",
+    "rule": "mit always takes Dativ. mit + dem Bus/Zug/Auto.",
     "id": "g434"
   },
   {
@@ -6699,7 +6699,7 @@
     "explanation": "Ort (oberhalb) → über dem Tisch",
     "gender": "der",
     "translation": "The lamp hangs above the table.",
-    "rule": "Location above: über + Dativ.",
+    "rule": "Wo? (location) → Dativ. über + Dativ.",
     "id": "g435"
   },
   {
@@ -6715,7 +6715,7 @@
     "explanation": "Richtung + Feminin → zur Post (zu + der)",
     "gender": "die",
     "translation": "I am going to the post office.",
-    "rule": "Direction to a feminine place: zur = zu + der.",
+    "rule": "Wohin? (direction) → zu + Dativ. zu + der = zur.",
     "id": "g436"
   },
   {
@@ -6731,7 +6731,7 @@
     "explanation": "Ort → neben der Apotheke",
     "gender": "die",
     "translation": "The shop is next to the pharmacy.",
-    "rule": "Location next to: neben + Dativ.",
+    "rule": "Wo? (location) → Dativ. neben + Dativ.",
     "id": "g437"
   },
   {
@@ -6747,7 +6747,7 @@
     "explanation": "zeitlich nach → nach dem Unterricht",
     "gender": "der",
     "translation": "He comes after the lesson.",
-    "rule": "Temporal: nach + Dativ means 'after'.",
+    "rule": "Wann? (when) → nach + Dativ = after.",
     "id": "g438"
   },
   {
@@ -6762,7 +6762,7 @@
     "category": "praepositionen",
     "explanation": "Richtung + Land ohne Artikel → nach Italien",
     "translation": "We are flying to Italy.",
-    "rule": "Direction to a country without article: nach.",
+    "rule": "Wohin? (direction) → nach + country (no article).",
     "id": "g439"
   },
   {
@@ -6778,7 +6778,7 @@
     "explanation": "Ort → an dem Fenster",
     "gender": "das",
     "translation": "She is standing at the window.",
-    "rule": "Location at: an + Dativ.",
+    "rule": "Wo? (location) → Dativ. an + Dativ.",
     "id": "g440"
   },
   {
@@ -6794,7 +6794,7 @@
     "explanation": "Ort (unterhalb) → unter dem Sofa",
     "gender": "das",
     "translation": "The dog is lying under the sofa.",
-    "rule": "Location below: unter + Dativ.",
+    "rule": "Wo? (location) → Dativ. unter + Dativ.",
     "id": "g441"
   },
   {
@@ -6809,7 +6809,7 @@
     "category": "praepositionen",
     "explanation": "Zeitdauer bis jetzt → seit drei Monaten",
     "translation": "I have been learning German for three months.",
-    "rule": "Duration continuing to now: seit + Dativ.",
+    "rule": "Seit wann? (since when) → seit + Dativ.",
     "id": "g442"
   },
   {
@@ -6825,7 +6825,7 @@
     "explanation": "Richtung + Maskulin → zum Bäcker (zu + dem)",
     "gender": "der",
     "translation": "He is going to the baker.",
-    "rule": "Direction to a masculine person/place: zum = zu + dem.",
+    "rule": "Wohin? (direction) → zu + Dativ. zu + dem = zum.",
     "id": "g443"
   },
   {
@@ -6841,7 +6841,7 @@
     "explanation": "Ort → zwischen den Büchern",
     "gender": "die",
     "translation": "The picture hangs between the books.",
-    "rule": "Location between: zwischen + Dativ.",
+    "rule": "Wo? (location) → Dativ. zwischen + Dativ.",
     "id": "g444"
   },
   {
@@ -6857,7 +6857,7 @@
     "explanation": "Ort + Neutrum → im Restaurant (in + dem)",
     "gender": "das",
     "translation": "We eat at the restaurant.",
-    "rule": "Location in a neuter place: im = in + dem.",
+    "rule": "Wo? (location) → Dativ. in + dem = im.",
     "id": "g445"
   },
   {
@@ -6872,7 +6872,7 @@
     "category": "praepositionen",
     "explanation": "Herkunft + Land ohne Artikel → aus Brasilien",
     "translation": "He comes from Brazil.",
-    "rule": "Origin from a country without article: aus.",
+    "rule": "Woher? (where from) → aus (+ country without article).",
     "id": "g446"
   },
   {
@@ -6888,7 +6888,7 @@
     "explanation": "Richtung (horizontal) → auf den Tisch",
     "gender": "der",
     "translation": "She puts the book on the table.",
-    "rule": "Direction onto a horizontal surface: auf + Akkusativ.",
+    "rule": "Wohin? (direction) → Akkusativ. auf + Akkusativ.",
     "id": "g447"
   },
   {
@@ -6903,7 +6903,7 @@
     "category": "praepositionen",
     "explanation": "Zeitraum → von 9 bis 17 Uhr",
     "translation": "I work from 9 to 5 o'clock.",
-    "rule": "Time range: von ... bis ... (from ... to ...).",
+    "rule": "Wann? (when) → von ... bis ... (from ... to ...).",
     "id": "g448"
   },
   {
@@ -6919,7 +6919,7 @@
     "explanation": "Ort (vertikal) → an der Wand",
     "gender": "die",
     "translation": "The mirror hangs on the wall.",
-    "rule": "Vertical surface location: an + Dativ.",
+    "rule": "Wo? (location) → Dativ. an + Dativ.",
     "id": "g449"
   },
   {
@@ -6935,7 +6935,7 @@
     "explanation": "Ort + Maskulin → in dem Park",
     "gender": "der",
     "translation": "We are meeting in the park.",
-    "rule": "Location inside a masculine place: in + Dativ (in dem).",
+    "rule": "Wo? (location) → Dativ. in + Dativ (in dem).",
     "id": "g450"
   },
   {
@@ -6951,7 +6951,7 @@
     "explanation": "Schlüssel (Maskulin, Akkusativ) → seinen Schlüssel",
     "gender": "der",
     "translation": "He always forgets his key.",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (seinen).",
+    "rule": "Akkusativ + masculine → add -en. sein → seinen.",
     "id": "g451"
   },
   {
@@ -6967,7 +6967,7 @@
     "explanation": "Mutter (Feminin, Nominativ) → meine Mutter",
     "gender": "die",
     "translation": "My mother cooks very well.",
-    "rule": "Feminine Nominativ: possessive gets -e ending (meine).",
+    "rule": "Nominativ + feminine → add -e. mein → meine.",
     "id": "g452"
   },
   {
@@ -6983,7 +6983,7 @@
     "explanation": "Stadt (Feminin, Akkusativ) → unsere Stadt",
     "gender": "die",
     "translation": "We love our city.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (unsere).",
+    "rule": "Akkusativ + feminine → add -e. unser → unsere.",
     "id": "g453"
   },
   {
@@ -6999,7 +6999,7 @@
     "explanation": "Auto (Neutrum, Akkusativ) → sein Auto",
     "gender": "das",
     "translation": "He drives his car to work.",
-    "rule": "Neuter Akkusativ: possessive has no ending (sein).",
+    "rule": "Akkusativ + neuter → no ending. sein stays sein.",
     "id": "g454"
   },
   {
@@ -7015,7 +7015,7 @@
     "explanation": "Bruder (Maskulin, Nominativ) → ihr Bruder",
     "gender": "der",
     "translation": "Her brother lives in Hamburg.",
-    "rule": "Masculine Nominativ: possessive has no ending (ihr).",
+    "rule": "Nominativ + masculine → no ending. ihr stays ihr.",
     "id": "g455"
   },
   {
@@ -7031,7 +7031,7 @@
     "explanation": "Geldbeutel (Maskulin, Akkusativ) → deinen Geldbeutel",
     "gender": "der",
     "translation": "Do you have your wallet?",
-    "rule": "Masculine Akkusativ: possessive gets -en ending (deinen).",
+    "rule": "Akkusativ + masculine → add -en. dein → deinen.",
     "id": "g456"
   },
   {
@@ -7047,7 +7047,7 @@
     "explanation": "Lehrer (Maskulin, Nominativ) → unser Lehrer",
     "gender": "der",
     "translation": "Our teacher is very strict.",
-    "rule": "Masculine Nominativ: possessive has no ending (unser).",
+    "rule": "Nominativ + masculine → no ending. unser stays unser.",
     "id": "g457"
   },
   {
@@ -7063,7 +7063,7 @@
     "explanation": "Buch (Neutrum, Akkusativ) → ihr Buch",
     "gender": "das",
     "translation": "She is reading her book.",
-    "rule": "Neuter Akkusativ: possessive has no ending (ihr).",
+    "rule": "Akkusativ + neuter → no ending. ihr stays ihr.",
     "id": "g458"
   },
   {
@@ -7079,7 +7079,7 @@
     "explanation": "Schwester (Feminin, Dativ) → seiner Schwester",
     "gender": "die",
     "translation": "He helps his sister.",
-    "rule": "Feminine Dativ: possessive gets -er ending (seiner).",
+    "rule": "Dativ + feminine → add -er. sein → seiner.",
     "id": "g459"
   },
   {
@@ -7095,7 +7095,7 @@
     "explanation": "Freund (Maskulin, Dativ) → meinem Freund",
     "gender": "der",
     "translation": "I give my friend the book.",
-    "rule": "Masculine Dativ: possessive gets -em ending (meinem).",
+    "rule": "Dativ + masculine → add -em. mein → meinem.",
     "id": "g460"
   },
   {
@@ -7111,7 +7111,7 @@
     "explanation": "Großeltern (Plural, Nominativ) → seine Großeltern",
     "gender": "die",
     "translation": "His grandparents live in the countryside.",
-    "rule": "Plural Nominativ: possessive gets -e ending (seine).",
+    "rule": "Nominativ + plural → add -e. sein → seine.",
     "id": "g461"
   },
   {
@@ -7127,7 +7127,7 @@
     "explanation": "Hände (Plural, Akkusativ) → meine Hände",
     "gender": "die",
     "translation": "I am washing my hands.",
-    "rule": "Plural Akkusativ: possessive gets -e ending (meine).",
+    "rule": "Akkusativ + plural → add -e. mein → meine.",
     "id": "g462"
   },
   {
@@ -7143,7 +7143,7 @@
     "explanation": "Jacke (Feminin, Akkusativ) → deine Jacke",
     "gender": "die",
     "translation": "You are wearing your new jacket.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (deine).",
+    "rule": "Akkusativ + feminine → add -e. dein → deine.",
     "id": "g463"
   },
   {
@@ -7159,7 +7159,7 @@
     "explanation": "Kind (Neutrum, Dativ) → seinem Kind",
     "gender": "das",
     "translation": "He gives his child a ball.",
-    "rule": "Neuter Dativ: possessive gets -em ending (seinem).",
+    "rule": "Dativ + neuter → add -em. sein → seinem.",
     "id": "g464"
   },
   {
@@ -7175,7 +7175,7 @@
     "explanation": "Telefon (Neutrum, Nominativ) → dein Telefon",
     "gender": "das",
     "translation": "Your phone is ringing.",
-    "rule": "Neuter Nominativ: possessive has no ending (dein).",
+    "rule": "Nominativ + neuter → no ending. dein stays dein.",
     "id": "g465"
   },
   {
@@ -7191,7 +7191,7 @@
     "explanation": "Wohnung (Feminin, Akkusativ) → unsere Wohnung",
     "gender": "die",
     "translation": "We are cleaning our apartment.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (unsere).",
+    "rule": "Akkusativ + feminine → add -e. unser → unsere.",
     "id": "g466"
   },
   {
@@ -7207,7 +7207,7 @@
     "explanation": "Hund (Maskulin, Nominativ) → sein Hund",
     "gender": "der",
     "translation": "His dog is very friendly.",
-    "rule": "Masculine Nominativ: possessive has no ending (sein).",
+    "rule": "Nominativ + masculine → no ending. sein stays sein.",
     "id": "g467"
   },
   {
@@ -7223,7 +7223,7 @@
     "explanation": "Hausaufgaben (Plural, Akkusativ) → ihre Hausaufgaben",
     "gender": "die",
     "translation": "Anna does her homework.",
-    "rule": "Plural Akkusativ: possessive gets -e ending (ihre).",
+    "rule": "Akkusativ + plural → add -e. ihr → ihre.",
     "id": "g468"
   },
   {
@@ -7239,7 +7239,7 @@
     "explanation": "Mutter (Feminin, Dativ) → meiner Mutter",
     "gender": "die",
     "translation": "I am writing my mother an email.",
-    "rule": "Feminine Dativ: possessive gets -er ending (meiner).",
+    "rule": "Dativ + feminine → add -er. mein → meiner.",
     "id": "g469"
   },
   {
@@ -7255,7 +7255,7 @@
     "explanation": "Zimmer (Neutrum, Nominativ) → euer Zimmer",
     "gender": "das",
     "translation": "Your (all's) room is small.",
-    "rule": "Neuter Nominativ: possessive has no ending (euer).",
+    "rule": "Nominativ + neuter → no ending. euer stays euer.",
     "id": "g470"
   },
   {
@@ -7271,7 +7271,7 @@
     "explanation": "Auto (Neutrum, Akkusativ) → sein Auto",
     "gender": "das",
     "translation": "He is washing his car.",
-    "rule": "Neuter Akkusativ: possessive has no ending (sein).",
+    "rule": "Akkusativ + neuter → no ending. sein stays sein.",
     "id": "g471"
   },
   {
@@ -7287,7 +7287,7 @@
     "explanation": "Tante (Feminin, Akkusativ) → unsere Tante",
     "gender": "die",
     "translation": "We are visiting our aunt.",
-    "rule": "Feminine Akkusativ: possessive gets -e ending (unsere).",
+    "rule": "Akkusativ + feminine → add -e. unser → unsere.",
     "id": "g472"
   },
   {
@@ -7701,7 +7701,7 @@
       "sauberer",
       "sauber",
       "am saubersten",
-      "sauberer"
+      "sauberster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7746,7 +7746,7 @@
       "schwerer",
       "schwer",
       "am schwersten",
-      "schwerer"
+      "schwerster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7806,7 +7806,7 @@
       "schöner",
       "schön",
       "am schönsten",
-      "schöner"
+      "schönster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7821,7 +7821,7 @@
       "schlechter",
       "schlecht",
       "am schlechtesten",
-      "schlechter"
+      "schlechtster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7896,7 +7896,7 @@
       "lauter",
       "laut",
       "am lautesten",
-      "lauter"
+      "lautster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7926,7 +7926,7 @@
       "weniger",
       "wenig",
       "am wenigsten",
-      "weniger"
+      "wenigster"
     ],
     "correct": 0,
     "category": "komparativ",
@@ -7986,7 +7986,7 @@
       "früher",
       "früh",
       "am frühesten",
-      "früher"
+      "frühster"
     ],
     "correct": 0,
     "category": "komparativ",

@@ -152,9 +152,10 @@ export default function VocabCard({ card, onAnswer }: Props) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
     paddingHorizontal: spacing.lg,
+    paddingBottom: spacing.lg,
   },
   wordSection: {
     alignItems: 'center',
