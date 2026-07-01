@@ -54,10 +54,13 @@ export interface DailyStats {
 
 export interface Progress {
   vocabLearned: number;
+  vocabSeen: number;
   vocabTotal: number;
   grammarLearned: number;
+  grammarSeen: number;
   grammarTotal: number;
   uebungenLearned: number;
+  uebungenSeen: number;
   uebungenTotal: number;
   boxDistribution: number[];
   streak: number;

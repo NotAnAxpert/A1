@@ -44,9 +44,9 @@ export default function HomeScreen() {
 
   const vocabTotal = vocabData.length;
   const grammarTotal = grammarData.length;
-  const vocabSeen = progress?.vocabTotal ?? 0;
-  const grammarSeen = progress?.grammarTotal ?? 0;
-  const uebungenSeen = progress?.uebungenTotal ?? 0;
+  const vocabSeen = progress?.vocabSeen ?? 0;
+  const grammarSeen = progress?.grammarSeen ?? 0;
+  const uebungenSeen = progress?.uebungenSeen ?? 0;
   const totalSeen = vocabSeen + grammarSeen + uebungenSeen;
   const totalCards = vocabTotal + grammarTotal + uebungenTotal;
   const readiness = totalCards > 0 ? Math.round((totalSeen / totalCards) * 100) : 0;

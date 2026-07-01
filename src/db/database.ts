@@ -246,15 +246,21 @@ export async function getProgress(): Promise<Progress> {
     const vocabLearned = vocabCards.filter((c) => c.box >= 3).length;
     const grammarLearned = grammarCards.filter((c) => c.box >= 3).length;
     const uebungenLearned = uebungenCards.filter((c) => c.box >= 3).length;
+    const vocabSeen = vocabCards.filter((c) => c.lastReviewed !== null).length;
+    const grammarSeen = grammarCards.filter((c) => c.lastReviewed !== null).length;
+    const uebungenSeen = uebungenCards.filter((c) => c.lastReviewed !== null).length;
+    const totalSeen = vocabSeen + grammarSeen + uebungenSeen;
     const totalCards = cards.length;
-    const learnedCards = vocabLearned + grammarLearned + uebungenLearned;
-    const readiness = totalCards > 0 ? Math.round((learnedCards / totalCards) * 100) : 0;
+    const readiness = totalCards > 0 ? Math.round((totalSeen / totalCards) * 100) : 0;
     return {
       vocabLearned,
+      vocabSeen,
       vocabTotal: vocabCards.length,
       grammarLearned,
+      grammarSeen,
       grammarTotal: grammarCards.length,
       uebungenLearned,
+      uebungenSeen,
       uebungenTotal: uebungenCards.length,
       boxDistribution: boxes,
       streak: await getStreak(),
@@ -265,28 +271,37 @@ export async function getProgress(): Promise<Progress> {
   const db = await getSqliteDb();
   const vocabTotal = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'vocab'`);
   const vocabLearned = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'vocab' AND box >= 3`);
+  const vocabSeenRow = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'vocab' AND last_reviewed IS NOT NULL`);
   const grammarTotal = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'grammar'`);
   const grammarLearned = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'grammar' AND box >= 3`);
+  const grammarSeenRow = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'grammar' AND last_reviewed IS NOT NULL`);
   const uebungenTotal = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'uebungen'`);
   const uebungenLearned = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'uebungen' AND box >= 3`);
+  const uebungenSeenRow = await db.getFirstAsync(`SELECT COUNT(*) as count FROM card_state WHERE card_type = 'uebungen' AND last_reviewed IS NOT NULL`);
   const boxes = [0, 0, 0, 0, 0];
   const boxRows = await db.getAllAsync(`SELECT box, COUNT(*) as count FROM card_state GROUP BY box`);
   for (const row of boxRows as any[]) {
     if (row.box >= 1 && row.box <= 5) boxes[row.box - 1] = row.count;
   }
   const streak = await getStreak();
+  const vSeen = (vocabSeenRow as any)?.count ?? 0;
+  const gSeen = (grammarSeenRow as any)?.count ?? 0;
+  const uSeen = (uebungenSeenRow as any)?.count ?? 0;
+  const totalSeen = vSeen + gSeen + uSeen;
   const total = ((vocabTotal as any)?.count ?? 0) + ((grammarTotal as any)?.count ?? 0) + ((uebungenTotal as any)?.count ?? 0);
-  const learned = ((vocabLearned as any)?.count ?? 0) + ((grammarLearned as any)?.count ?? 0) + ((uebungenLearned as any)?.count ?? 0);
   return {
     vocabLearned: (vocabLearned as any)?.count ?? 0,
+    vocabSeen: vSeen,
     vocabTotal: (vocabTotal as any)?.count ?? 0,
     grammarLearned: (grammarLearned as any)?.count ?? 0,
+    grammarSeen: gSeen,
     grammarTotal: (grammarTotal as any)?.count ?? 0,
     uebungenLearned: (uebungenLearned as any)?.count ?? 0,
+    uebungenSeen: uSeen,
     uebungenTotal: (uebungenTotal as any)?.count ?? 0,
     boxDistribution: boxes,
     streak,
-    readiness: total > 0 ? Math.round((learned / total) * 100) : 0,
+    readiness: total > 0 ? Math.round((totalSeen / total) * 100) : 0,
   };
 }
 
