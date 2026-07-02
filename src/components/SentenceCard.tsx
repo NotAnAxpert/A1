@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef, useCallback } from 'react';
+import { useState, useMemo, useRef, useCallback, useEffect } from 'react';
 import { View, Text, Pressable, StyleSheet, TextInput, type ViewStyle } from 'react-native';
 import * as Speech from 'expo-speech';
 import { Ionicons } from '@expo/vector-icons';
@@ -25,6 +25,13 @@ export default function SentenceCard({ card, onAnswer }: Props) {
   const [isCorrect, setIsCorrect] = useState(false);
   const [typedText, setTypedText] = useState('');
   const inputRef = useRef<TextInput>(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      inputRef.current?.focus();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [card.id]);
 
   const shuffledOrder = useMemo(() => {
     let order = shuffle(card.chunks.map((_, i) => i));

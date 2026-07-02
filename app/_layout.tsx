@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Platform } from 'react-native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts, SpaceGrotesk_400Regular, SpaceGrotesk_500Medium, SpaceGrotesk_600SemiBold, SpaceGrotesk_700Bold } from '@expo-google-fonts/space-grotesk';
@@ -19,6 +19,25 @@ export default function RootLayout() {
   useEffect(() => {
     if (fontsLoaded) SplashScreen.hideAsync();
   }, [fontsLoaded]);
+
+  useEffect(() => {
+    if (Platform.OS !== 'web' || typeof document === 'undefined') return;
+    function warmUp() {
+      try {
+        const u = new SpeechSynthesisUtterance('');
+        u.volume = 0;
+        window.speechSynthesis.speak(u);
+      } catch {}
+      document.removeEventListener('touchstart', warmUp);
+      document.removeEventListener('click', warmUp);
+    }
+    document.addEventListener('touchstart', warmUp, { once: true });
+    document.addEventListener('click', warmUp, { once: true });
+    return () => {
+      document.removeEventListener('touchstart', warmUp);
+      document.removeEventListener('click', warmUp);
+    };
+  }, []);
 
   if (!fontsLoaded) return null;
 
