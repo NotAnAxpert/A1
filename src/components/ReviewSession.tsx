@@ -3,6 +3,7 @@ import { View, Text, Pressable, ScrollView, StyleSheet, Platform, Animated } fro
 import { router } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors, spacing, fontSize, radius } from '../theme';
 
 const isWeb = Platform.OS === 'web';
@@ -38,6 +39,8 @@ interface Props {
 }
 
 export default function ReviewSession({ cards, cardType, title, boxMap }: Props) {
+  const insets = useSafeAreaInsets();
+  const bottomPad = isWeb ? Math.max(insets.bottom, 24) : insets.bottom;
   const [queue, setQueue] = useState<Card[]>([...cards]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [correctIds, setCorrectIds] = useState<Set<string>>(new Set());
@@ -125,7 +128,7 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
           <Text style={styles.emptyTitle}>Alles erledigt!</Text>
           <Text style={styles.emptySubtitle}>No cards due. Come back later.</Text>
         </View>
-        <Pressable style={styles.backButton} onPress={() => router.back()}>
+        <Pressable style={[styles.backButton, { marginBottom: spacing.lg + bottomPad }]} onPress={() => router.replace('/')}>
           <Ionicons name="home" size={16} color="#FFFFFF" />
           <Text style={styles.backButtonText}>Back to Home</Text>
         </Pressable>
@@ -161,7 +164,7 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
           </View>
         </View>
 
-        <Pressable style={styles.backButton} onPress={() => router.back()}>
+        <Pressable style={[styles.backButton, { marginBottom: spacing.lg + bottomPad }]} onPress={() => router.replace('/')}>
           <Ionicons name="home" size={16} color="#FFFFFF" />
           <Text style={styles.backButtonText}>Back to Home</Text>
         </Pressable>
@@ -211,6 +214,7 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
       {waitingForNext && lastResult && (
         <Animated.View style={[
           styles.bottomBar,
+          { paddingBottom: spacing.lg + bottomPad },
           {
             opacity: bannerAnim,
             transform: [{
