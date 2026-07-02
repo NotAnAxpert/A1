@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors, spacing, fontSize, radius } from '../theme';
 
 const isWeb = Platform.OS === 'web';
-import type { VocabCard as VocabCardType, GrammarCard as GrammarCardType, CardType, PerfektCard as PerfektCardType, PluralCard as PluralCardType, ConjugationCard as ConjugationCardType, SentenceCard as SentenceCardType } from '../data/types';
+import type { VocabCard as VocabCardType, GrammarCard as GrammarCardType, CardType, PerfektCard as PerfektCardType, PluralCard as PluralCardType, ConjugationCard as ConjugationCardType, SentenceCard as SentenceCardType, TrennbareCard as TrennbareCardType } from '../data/types';
 import { updateCardAfterAnswer } from '../db/database';
 import VocabCard from './VocabCard';
 import GrammarCard from './GrammarCard';
@@ -15,8 +15,9 @@ import PerfektCardComponent from './PerfektCard';
 import PluralCardComponent from './PluralCard';
 import ConjugationCardComponent from './ConjugationCard';
 import SentenceCardComponent from './SentenceCard';
+import TrennbareCardComponent from './TrennbareCard';
 
-type Card = VocabCardType | GrammarCardType | PerfektCardType | PluralCardType | ConjugationCardType | SentenceCardType;
+type Card = VocabCardType | GrammarCardType | PerfektCardType | PluralCardType | ConjugationCardType | SentenceCardType | TrennbareCardType;
 
 const BOX_INTERVALS = [0, 0, 1, 3, 7, 21];
 
@@ -205,6 +206,8 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
               return <ConjugationCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as ConjugationCardType} onAnswer={handleAnswer} />;
             case 'sentence':
               return <SentenceCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as SentenceCardType} onAnswer={handleAnswer} />;
+            case 'trennbare':
+              return <TrennbareCardComponent key={`${currentCard.id}-${currentIndex}`} card={currentCard as TrennbareCardType} onAnswer={handleAnswer} />;
             default:
               return <GrammarCard key={`${currentCard.id}-${currentIndex}`} card={currentCard as GrammarCardType} onAnswer={handleAnswer} />;
           }

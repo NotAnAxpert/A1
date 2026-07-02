@@ -113,4 +113,16 @@ export interface SentenceCard {
   punctuation?: string;
 }
 
-export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard;
+export interface TrennbareCard {
+  id: string;
+  type: 'trennbare';
+  sentence: string;
+  hint: string;
+  stemAnswer: string;
+  prefixAnswer: string;
+  translation: string;
+  explanation: string;
+  rule: string;
+}
+
+export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard | TrennbareCard;
