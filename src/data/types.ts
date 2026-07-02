@@ -113,4 +113,15 @@ export interface SentenceCard {
   punctuation?: string;
 }
 
-export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard;
+export interface WelcherCard {
+  id: string;
+  type: 'welcher';
+  sentence: string;
+  correct: number;
+  genderHint: string;
+  case: string;
+  translation: string;
+  rule: string;
+}
+
+export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard | WelcherCard;

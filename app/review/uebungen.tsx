@@ -9,12 +9,14 @@ import perfektData from '../../src/data/perfekt.json';
 import pluralData from '../../src/data/plural.json';
 import conjugationData from '../../src/data/conjugation.json';
 import sentenceData from '../../src/data/sentences.json';
+import welcherData from '../../src/data/welcher.json';
 
 const allExercises: AnyGrammarCard[] = [
   ...(perfektData as AnyGrammarCard[]),
   ...(pluralData as AnyGrammarCard[]),
   ...(conjugationData as AnyGrammarCard[]),
   ...(sentenceData as AnyGrammarCard[]),
+  ...(welcherData as AnyGrammarCard[]),
 ];
 
 const CYCLE_SIZE = 15;
