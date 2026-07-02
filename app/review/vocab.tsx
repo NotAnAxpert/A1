@@ -65,6 +65,18 @@ export default function VocabReviewScreen() {
         sessionCards = [...sessionCards, ...extraCards];
       }
 
+      if (sessionCards.length < MIN_SESSION_SIZE) {
+        const currentIds = new Set(sessionCards.map((c) => c.id));
+        const moreUnseen = shuffle(allVocab as VocabCard[]).filter(
+          (v) => !knownIds.has(v.id) && !currentIds.has(v.id)
+        );
+        for (const v of moreUnseen.slice(0, MIN_SESSION_SIZE - sessionCards.length)) {
+          await introduceCard(v.id, 'vocab');
+          boxes.set(v.id, 1);
+          sessionCards.push(v);
+        }
+      }
+
       setBoxMap(boxes);
       setCards(shuffle(sessionCards));
     } catch {

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { Stack } from 'expo-router';
 import ReviewSession from '../../src/components/ReviewSession';
-import { getDueCards, getKnownCardIds, introduceCard } from '../../src/db/database';
+import { getDueCards, getNewCardsShownToday, getKnownCardIds, introduceCard, getExtraReviewCards } from '../../src/db/database';
 import type { AnyGrammarCard } from '../../src/data/types';
 import { colors } from '../../src/theme';
 import perfektData from '../../src/data/perfekt.json';
@@ -21,7 +21,8 @@ const allExercises: AnyGrammarCard[] = [
   ...(welcherData as AnyGrammarCard[]),
 ];
 
-const CYCLE_SIZE = 15;
+const NEW_CARDS_PER_DAY = 20;
+const MIN_SESSION_SIZE = 15;
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -44,6 +45,7 @@ export default function UebungenReviewScreen() {
     try {
       const dueStates = await getDueCards('uebungen');
       const knownIds = await getKnownCardIds('uebungen');
+      const newShownToday = await getNewCardsShownToday('uebungen');
 
       const boxes = new Map<string, number>();
       for (const s of dueStates) boxes.set(s.cardId, s.box);
@@ -52,19 +54,47 @@ export default function UebungenReviewScreen() {
         .map((state) => allExercises.find((g) => g.id === state.cardId))
         .filter(Boolean) as AnyGrammarCard[];
 
-      const unseenCards = shuffle(allExercises).filter((g) => !knownIds.has(g.id));
-      for (const g of unseenCards) {
-        await introduceCard(g.id, 'uebungen');
-        boxes.set(g.id, 1);
+      const newLimit = Math.max(0, NEW_CARDS_PER_DAY - newShownToday);
+      const shuffledAll = shuffle(allExercises);
+      const newCards: AnyGrammarCard[] = [];
+      for (const g of shuffledAll) {
+        if (newCards.length >= newLimit) break;
+        if (!knownIds.has(g.id)) {
+          await introduceCard(g.id, 'uebungen');
+          boxes.set(g.id, 1);
+          newCards.push(g);
+        }
       }
 
-      const pool = shuffle([...dueCards, ...unseenCards]);
-      const sessionCards = pool.slice(0, CYCLE_SIZE);
+      let sessionCards = [...dueCards, ...newCards];
+      const sessionIds = new Set(sessionCards.map((c) => c.id));
+
+      if (sessionCards.length < MIN_SESSION_SIZE) {
+        const extraNeeded = MIN_SESSION_SIZE - sessionCards.length;
+        const extraStates = await getExtraReviewCards('uebungen', sessionIds, extraNeeded);
+        const extraCards = extraStates
+          .map((state) => allExercises.find((g) => g.id === state.cardId))
+          .filter(Boolean) as AnyGrammarCard[];
+        for (const s of extraStates) boxes.set(s.cardId, s.box);
+        sessionCards = [...sessionCards, ...extraCards];
+      }
+
+      if (sessionCards.length < MIN_SESSION_SIZE) {
+        const currentIds = new Set(sessionCards.map((c) => c.id));
+        const moreUnseen = shuffle(allExercises).filter(
+          (g) => !knownIds.has(g.id) && !currentIds.has(g.id)
+        );
+        for (const g of moreUnseen.slice(0, MIN_SESSION_SIZE - sessionCards.length)) {
+          await introduceCard(g.id, 'uebungen');
+          boxes.set(g.id, 1);
+          sessionCards.push(g);
+        }
+      }
 
       setBoxMap(boxes);
-      setCards(sessionCards);
+      setCards(shuffle(sessionCards));
     } catch {
-      const shuffled = shuffle(allExercises).slice(0, CYCLE_SIZE);
+      const shuffled = shuffle(allExercises).slice(0, MIN_SESSION_SIZE);
       const boxes = new Map<string, number>();
       for (const g of shuffled) boxes.set(g.id, 1);
       setBoxMap(boxes);

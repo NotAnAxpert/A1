@@ -376,7 +376,7 @@ export async function getExtraReviewCards(
   if (isWeb) {
     const today = getToday();
     return loadCards()
-      .filter((c) => c.cardType === cardType && c.nextReview > today && !excludeIds.has(c.cardId))
+      .filter((c) => c.cardType === cardType && c.nextReview > today && !excludeIds.has(c.cardId) && c.lastReviewed !== today)
       .sort((a, b) => a.box - b.box || a.nextReview.localeCompare(b.nextReview))
       .slice(0, limit)
       .map(storedToState);
@@ -384,8 +384,8 @@ export async function getExtraReviewCards(
   const db = await getSqliteDb();
   const today = getToday();
   const rows = await db.getAllAsync(
-    `SELECT * FROM card_state WHERE card_type = ? AND next_review > ? ORDER BY box ASC, next_review ASC`,
-    [cardType, today]
+    `SELECT * FROM card_state WHERE card_type = ? AND next_review > ? AND (last_reviewed IS NULL OR last_reviewed != ?) ORDER BY box ASC, next_review ASC`,
+    [cardType, today, today]
   );
   return (rows as any[]).filter((r) => !excludeIds.has(r.card_id)).slice(0, limit).map(mapSqlRow);
 }

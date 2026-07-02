@@ -65,6 +65,18 @@ export default function GrammarReviewScreen() {
         sessionCards = [...sessionCards, ...extraCards];
       }
 
+      if (sessionCards.length < MIN_SESSION_SIZE) {
+        const currentIds = new Set(sessionCards.map((c) => c.id));
+        const moreUnseen = shuffle(allGrammar as GrammarCard[]).filter(
+          (g) => !knownIds.has(g.id) && !currentIds.has(g.id)
+        );
+        for (const g of moreUnseen.slice(0, MIN_SESSION_SIZE - sessionCards.length)) {
+          await introduceCard(g.id, 'grammar');
+          boxes.set(g.id, 1);
+          sessionCards.push(g);
+        }
+      }
+
       setBoxMap(boxes);
       setCards(shuffle(sessionCards));
     } catch {
