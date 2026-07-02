@@ -125,4 +125,15 @@ export interface TrennbareCard {
   rule: string;
 }
 
-export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard | TrennbareCard;
+export interface WelcherCard {
+  id: string;
+  type: 'welcher';
+  sentence: string;
+  correct: number;
+  genderHint: string;
+  case: string;
+  translation: string;
+  rule: string;
+}
+
+export type AnyGrammarCard = GrammarCard | PerfektCard | PluralCard | ConjugationCard | SentenceCard | TrennbareCard | WelcherCard;

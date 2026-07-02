@@ -1,0 +1,53 @@
+[
+  { "id": "w001", "type": "welcher", "sentence": "_____ Kurs beginnt morgen?", "correct": 0, "genderHint": "der Kurs (m.)", "case": "Nominativ", "translation": "Which course starts tomorrow?", "rule": "Nominativ + maskulin → welcher" },
+  { "id": "w002", "type": "welcher", "sentence": "_____ Bus fährt zum Bahnhof?", "correct": 0, "genderHint": "der Bus (m.)", "case": "Nominativ", "translation": "Which bus goes to the train station?", "rule": "Nominativ + maskulin → welcher" },
+  { "id": "w003", "type": "welcher", "sentence": "_____ Arzt ist heute da?", "correct": 0, "genderHint": "der Arzt (m.)", "case": "Nominativ", "translation": "Which doctor is here today?", "rule": "Nominativ + maskulin → welcher" },
+  { "id": "w004", "type": "welcher", "sentence": "_____ Stuhl ist frei?", "correct": 0, "genderHint": "der Stuhl (m.)", "case": "Nominativ", "translation": "Which chair is free?", "rule": "Nominativ + maskulin → welcher" },
+
+  { "id": "w005", "type": "welcher", "sentence": "_____ Straße ist das?", "correct": 1, "genderHint": "die Straße (f.)", "case": "Nominativ", "translation": "Which street is that?", "rule": "Nominativ + feminin → welche" },
+  { "id": "w006", "type": "welcher", "sentence": "_____ Farbe gefällt dir?", "correct": 1, "genderHint": "die Farbe (f.)", "case": "Nominativ", "translation": "Which color do you like?", "rule": "Nominativ + feminin → welche" },
+  { "id": "w007", "type": "welcher", "sentence": "_____ Lampe ist kaputt?", "correct": 1, "genderHint": "die Lampe (f.)", "case": "Nominativ", "translation": "Which lamp is broken?", "rule": "Nominativ + feminin → welche" },
+  { "id": "w008", "type": "welcher", "sentence": "_____ Wohnung ist größer?", "correct": 1, "genderHint": "die Wohnung (f.)", "case": "Nominativ", "translation": "Which apartment is bigger?", "rule": "Nominativ + feminin → welche" },
+
+  { "id": "w009", "type": "welcher", "sentence": "_____ Buch ist das?", "correct": 2, "genderHint": "das Buch (n.)", "case": "Nominativ", "translation": "Which book is that?", "rule": "Nominativ + neutrum → welches" },
+  { "id": "w010", "type": "welcher", "sentence": "_____ Zimmer ist frei?", "correct": 2, "genderHint": "das Zimmer (n.)", "case": "Nominativ", "translation": "Which room is available?", "rule": "Nominativ + neutrum → welches" },
+  { "id": "w011", "type": "welcher", "sentence": "_____ Restaurant ist gut?", "correct": 2, "genderHint": "das Restaurant (n.)", "case": "Nominativ", "translation": "Which restaurant is good?", "rule": "Nominativ + neutrum → welches" },
+  { "id": "w012", "type": "welcher", "sentence": "_____ Handy klingelt?", "correct": 2, "genderHint": "das Handy (n.)", "case": "Nominativ", "translation": "Which phone is ringing?", "rule": "Nominativ + neutrum → welches" },
+
+  { "id": "w013", "type": "welcher", "sentence": "_____ Schuhe sind deine?", "correct": 1, "genderHint": "die Schuhe (pl.)", "case": "Nominativ", "translation": "Which shoes are yours?", "rule": "Nominativ + plural → welche" },
+  { "id": "w014", "type": "welcher", "sentence": "_____ Kinder spielen draußen?", "correct": 1, "genderHint": "die Kinder (pl.)", "case": "Nominativ", "translation": "Which children are playing outside?", "rule": "Nominativ + plural → welche" },
+  { "id": "w015", "type": "welcher", "sentence": "_____ Züge fahren nach Berlin?", "correct": 1, "genderHint": "die Züge (pl.)", "case": "Nominativ", "translation": "Which trains go to Berlin?", "rule": "Nominativ + plural → welche" },
+
+  { "id": "w016", "type": "welcher", "sentence": "_____ Kurs besuchst du?", "correct": 4, "genderHint": "der Kurs (m.)", "case": "Akkusativ", "translation": "Which course are you taking?", "rule": "Akkusativ + maskulin → welchen" },
+  { "id": "w017", "type": "welcher", "sentence": "_____ Film möchtest du sehen?", "correct": 4, "genderHint": "der Film (m.)", "case": "Akkusativ", "translation": "Which movie do you want to see?", "rule": "Akkusativ + maskulin → welchen" },
+  { "id": "w018", "type": "welcher", "sentence": "_____ Mantel kaufst du?", "correct": 4, "genderHint": "der Mantel (m.)", "case": "Akkusativ", "translation": "Which coat are you buying?", "rule": "Akkusativ + maskulin → welchen" },
+  { "id": "w019", "type": "welcher", "sentence": "_____ Tee trinkst du gern?", "correct": 4, "genderHint": "der Tee (m.)", "case": "Akkusativ", "translation": "Which tea do you like to drink?", "rule": "Akkusativ + maskulin → welchen" },
+
+  { "id": "w020", "type": "welcher", "sentence": "_____ Sprache lernst du?", "correct": 1, "genderHint": "die Sprache (f.)", "case": "Akkusativ", "translation": "Which language are you learning?", "rule": "Akkusativ + feminin → welche" },
+  { "id": "w021", "type": "welcher", "sentence": "_____ Jacke nimmst du mit?", "correct": 1, "genderHint": "die Jacke (f.)", "case": "Akkusativ", "translation": "Which jacket are you taking?", "rule": "Akkusativ + feminin → welche" },
+  { "id": "w022", "type": "welcher", "sentence": "_____ Musik hörst du gern?", "correct": 1, "genderHint": "die Musik (f.)", "case": "Akkusativ", "translation": "Which music do you like listening to?", "rule": "Akkusativ + feminin → welche" },
+  { "id": "w023", "type": "welcher", "sentence": "_____ Zeitung liest du?", "correct": 1, "genderHint": "die Zeitung (f.)", "case": "Akkusativ", "translation": "Which newspaper do you read?", "rule": "Akkusativ + feminin → welche" },
+
+  { "id": "w024", "type": "welcher", "sentence": "_____ Brot möchtest du?", "correct": 2, "genderHint": "das Brot (n.)", "case": "Akkusativ", "translation": "Which bread would you like?", "rule": "Akkusativ + neutrum → welches" },
+  { "id": "w025", "type": "welcher", "sentence": "_____ Buch liest du gerade?", "correct": 2, "genderHint": "das Buch (n.)", "case": "Akkusativ", "translation": "Which book are you reading right now?", "rule": "Akkusativ + neutrum → welches" },
+  { "id": "w026", "type": "welcher", "sentence": "_____ Geschenk kaufst du?", "correct": 2, "genderHint": "das Geschenk (n.)", "case": "Akkusativ", "translation": "Which gift are you buying?", "rule": "Akkusativ + neutrum → welches" },
+  { "id": "w027", "type": "welcher", "sentence": "_____ Medikament nimmst du?", "correct": 2, "genderHint": "das Medikament (n.)", "case": "Akkusativ", "translation": "Which medicine are you taking?", "rule": "Akkusativ + neutrum → welches" },
+
+  { "id": "w028", "type": "welcher", "sentence": "_____ Schuhe kaufst du?", "correct": 1, "genderHint": "die Schuhe (pl.)", "case": "Akkusativ", "translation": "Which shoes are you buying?", "rule": "Akkusativ + plural → welche" },
+  { "id": "w029", "type": "welcher", "sentence": "_____ Lieder kennst du?", "correct": 1, "genderHint": "die Lieder (pl.)", "case": "Akkusativ", "translation": "Which songs do you know?", "rule": "Akkusativ + plural → welche" },
+  { "id": "w030", "type": "welcher", "sentence": "_____ Sachen brauchst du?", "correct": 1, "genderHint": "die Sachen (pl.)", "case": "Akkusativ", "translation": "Which things do you need?", "rule": "Akkusativ + plural → welche" },
+
+  { "id": "w031", "type": "welcher", "sentence": "Mit _____ Bus fährst du?", "correct": 3, "genderHint": "der Bus (m.)", "case": "Dativ", "translation": "Which bus are you going by?", "rule": "Dativ + maskulin → welchem" },
+  { "id": "w032", "type": "welcher", "sentence": "Von _____ Freund sprichst du?", "correct": 3, "genderHint": "der Freund (m.)", "case": "Dativ", "translation": "Which friend are you talking about?", "rule": "Dativ + maskulin → welchem" },
+  { "id": "w033", "type": "welcher", "sentence": "Bei _____ Arzt warst du?", "correct": 3, "genderHint": "der Arzt (m.)", "case": "Dativ", "translation": "Which doctor did you go to?", "rule": "Dativ + maskulin → welchem" },
+
+  { "id": "w034", "type": "welcher", "sentence": "In _____ Straße wohnst du?", "correct": 0, "genderHint": "die Straße (f.)", "case": "Dativ", "translation": "Which street do you live on?", "rule": "Dativ + feminin → welcher" },
+  { "id": "w035", "type": "welcher", "sentence": "Aus _____ Stadt kommst du?", "correct": 0, "genderHint": "die Stadt (f.)", "case": "Dativ", "translation": "Which city are you from?", "rule": "Dativ + feminin → welcher" },
+  { "id": "w036", "type": "welcher", "sentence": "Bei _____ Firma arbeitest du?", "correct": 0, "genderHint": "die Firma (f.)", "case": "Dativ", "translation": "Which company do you work at?", "rule": "Dativ + feminin → welcher" },
+
+  { "id": "w037", "type": "welcher", "sentence": "In _____ Zimmer schläfst du?", "correct": 3, "genderHint": "das Zimmer (n.)", "case": "Dativ", "translation": "Which room do you sleep in?", "rule": "Dativ + neutrum → welchem" },
+  { "id": "w038", "type": "welcher", "sentence": "Aus _____ Land kommst du?", "correct": 3, "genderHint": "das Land (n.)", "case": "Dativ", "translation": "Which country are you from?", "rule": "Dativ + neutrum → welchem" },
+
+  { "id": "w039", "type": "welcher", "sentence": "Mit _____ Freunden gehst du?", "correct": 4, "genderHint": "die Freunde (pl.)", "case": "Dativ", "translation": "Which friends are you going with?", "rule": "Dativ + plural → welchen" },
+  { "id": "w040", "type": "welcher", "sentence": "Von _____ Kindern sprichst du?", "correct": 4, "genderHint": "die Kinder (pl.)", "case": "Dativ", "translation": "Which children are you talking about?", "rule": "Dativ + plural → welchen" }
+]

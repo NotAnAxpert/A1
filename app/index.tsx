@@ -12,8 +12,10 @@ import perfektData from '../src/data/perfekt.json';
 import pluralData from '../src/data/plural.json';
 import conjugationData from '../src/data/conjugation.json';
 import sentenceData from '../src/data/sentences.json';
+import trennbareData from '../src/data/trennbare.json';
+import welcherData from '../src/data/welcher.json';
 
-const uebungenTotal = perfektData.length + pluralData.length + conjugationData.length + sentenceData.length;
+const uebungenTotal = perfektData.length + pluralData.length + conjugationData.length + sentenceData.length + trennbareData.length + welcherData.length;
 
 export default function HomeScreen() {
   const [vocabDue, setVocabDue] = useState(0);
@@ -191,7 +193,7 @@ export default function HomeScreen() {
           </View>
           <View style={styles.rowInfo}>
             <Text style={styles.rowName}>Übungen</Text>
-            <Text style={styles.rowSub}>Perfekt, Plural, Konjugation, Sätze</Text>
+            <Text style={styles.rowSub}>Perfekt, Plural, Konjugation, Sätze, Trennbare, Welcher</Text>
             <View style={styles.progressBar}>
               <View style={[styles.progressFill, { width: `${uebungenTotal > 0 ? (uebungenSeen / uebungenTotal) * 100 : 0}%`, backgroundColor: colors.accent4 }]} />
             </View>
