@@ -195,6 +195,7 @@ export default function ReviewSession({ cards, cardType, title, boxMap }: Props)
             key={`${currentCard.id}-${currentIndex}`}
             card={currentCard as VocabCardType}
             onAnswer={handleAnswer}
+            currentBox={boxMap?.get(currentCard.id) ?? 1}
           />
         ) : (() => {
           const grammarType = (currentCard as any).type;
